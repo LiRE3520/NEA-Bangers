@@ -1,0 +1,21 @@
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\bin\Debug\NEA Bangers.exe.config
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\bin\Debug\NEA Bangers.exe
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\bin\Debug\NEA Bangers.pdb
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\bin\Debug\NEA Bangers.xml
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA Bangers.vbproj.AssemblyReference.cache
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA Bangers.vbproj.SuggestedBindingRedirects.cache
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.Resources.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA Bangers.vbproj.GenerateResource.cache
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA Bangers.vbproj.CoreCompileInputs.cache
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA Bangers.exe
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA Bangers.xml
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA Bangers.pdb
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.CLASSfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.COOLCULATORFfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.SHAREfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.RESULTSfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.GRAPHINGfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.SESfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.EQUATIONMAKERfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.TABLEfrm.resources
+C:\Users\techg\OneDrive - Poole Grammar School\School Documents\Computing\A-Level\NEA Bangers\obj\Debug\NEA_Bangers.SIMPLEfrm.resources
