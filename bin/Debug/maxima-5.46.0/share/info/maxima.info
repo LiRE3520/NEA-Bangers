@@ -1,0 +1,2961 @@
+This is maxima.info, produced by makeinfo version 6.7 from maxima.texi.
+
+This is a Texinfo Maxima Manual
+
+   Copyright 1994,2001 William F. Schelter
+
+INFO-DIR-SECTION Math
+START-INFO-DIR-ENTRY
+* Maxima: (maxima).     A computer algebra system.
+END-INFO-DIR-ENTRY
+
+
+Indirect:
+maxima.info-1: 264
+maxima.info-2: 1059743
+maxima.info-3: 2006830
+
+Tag Table:
+(Indirect)
+Node: Top264
+Node: Introduction to Maxima16951
+Node: Bug Detection and Reporting23727
+Node: Functions and Variables for Bug Detection and Reporting23969
+Ref: run_testsuite24209
+Ref: testsuite_files26355
+Ref: bug_report27182
+Ref: build_info27564
+Node: Help29949
+Node: Documentation30130
+Node: Functions and Variables for Help31131
+Ref: apropos31301
+Ref: demo33040
+Ref: describe34237
+Ref: example37098
+Ref: manual_demo38483
+Node: Command Line38677
+Node: Introduction to Command Line38935
+Node: Functions and Variables for Command Line39149
+Ref: __39410
+Ref: _41151
+Ref: %42606
+Ref: %%43174
+Ref: %th44770
+Ref: ?45919
+Ref: ??46475
+Ref: $46792
+Ref: ;47199
+Ref: inchar47430
+Ref: infolists48299
+Ref: kill50274
+Ref: labels53069
+Ref: linechar54427
+Ref: linenum55165
+Ref: myoptions55275
+Ref: nolabels55460
+Ref: optionset56222
+Ref: outchar56839
+Ref: playback57708
+Ref: prompt59727
+Ref: quit59920
+Ref: read60297
+Ref: readonly60855
+Ref: reset61529
+Ref: showtime61990
+Ref: to_lisp62332
+Ref: eval_string_lisp63434
+Ref: values64140
+Node: Functions and Variables for Display65181
+Ref: %edispflag65395
+Ref: absboxchar65995
+Ref: declare_index_properties66321
+Ref: get_index_properties69861
+Ref: remove_index_properties70030
+Ref: display_index_separator70316
+Ref: disp75500
+Ref: display76180
+Ref: display2d77044
+Ref: display_format_internal78741
+Ref: with_default_2d_display79431
+Ref: dispterms79864
+Ref: expt80809
+Ref: ncexpt80809
+Ref: exptdispflag81112
+Ref: grind81800
+Ref: ibase86477
+Ref: ldisp88471
+Ref: ldisplay89572
+Ref: leftjust90891
+Ref: linel91395
+Ref: lispdisp91824
+Ref: negsumdispflag92341
+Ref: obase92722
+Ref: pfeformat93889
+Ref: powerdisp94710
+Ref: print95507
+Ref: sqrtdispflag96854
+Ref: stardisp97003
+Ref: ttyoff97167
+Node: Data Types and Structures97513
+Node: Numbers97760
+Node: Introduction to Numbers97982
+Node: Functions and Variables for Numbers98706
+Ref: bfloat98902
+Ref: bfloatp101005
+Ref: bftorat101109
+Ref: bftrunc102216
+Ref: evenp102499
+Ref: float102704
+Ref: float2bf102968
+Ref: floatnump103182
+Ref: fpprec103299
+Ref: fpprintprec103566
+Ref: integerp104503
+Ref: m1pbranch105433
+Ref: nonnegintegerp106022
+Ref: numberp106127
+Ref: numer107290
+Ref: numer_pbranch107997
+Ref: numerval109123
+Ref: oddp109568
+Ref: ratepsilon109769
+Ref: rationalize110037
+Ref: ratnump111510
+Node: Strings111648
+Node: Introduction to Strings111854
+Node: Functions and Variables for Strings113949
+Ref: concat114145
+Ref: sconcat115590
+Ref: string116218
+Ref: stringdisp116501
+Node: Constants117267
+Node: Functions and Variables for Constants117449
+Ref: %e117639
+Ref: %i117847
+Ref: false117918
+Ref: %gamma118063
+Ref: ind118146
+Ref: inf118343
+Ref: infinity118409
+Ref: minf118479
+Ref: %phi118561
+Ref: %pi120977
+Ref: true121179
+Ref: und121319
+Ref: zeroa121509
+Ref: zerob121962
+Node: Lists122182
+Node: Introduction to Lists122418
+Node: Functions and Variables for Lists123275
+Ref: [123506
+Ref: ]123506
+Ref: append125014
+Ref: assoc125367
+Ref: cons126958
+Ref: copylist128401
+Ref: create_list128475
+Ref: delete129711
+Ref: eighth132113
+Ref: endcons132237
+Ref: fifth133609
+Ref: first133732
+Ref: firstn135308
+Ref: fourth138559
+Ref: join138683
+Ref: last139436
+Ref: lastn139560
+Ref: length142820
+Ref: listarith143656
+Ref: lreduce144088
+Ref: makelist145439
+Ref: member147317
+Ref: ninth148657
+Ref: pop148780
+Ref: push149076
+Ref: rest150366
+Ref: reverse151458
+Ref: rreduce151691
+Ref: second153153
+Ref: seventh153277
+Ref: sixth153402
+Ref: sort153525
+Ref: sublist159408
+Ref: sublist_indices159730
+Ref: tenth160808
+Ref: third160932
+Ref: tree_reduce161055
+Ref: unique162385
+Ref: xreduce162764
+Node: Performance considerations for Lists164437
+Node: Arrays166692
+Ref: hashed array166857
+Ref: hashed arrays166857
+Ref: undeclared array166857
+Ref: undeclared arrays166857
+Node: Functions and Variables for Arrays168055
+Ref: array168230
+Ref: arrayapply169042
+Ref: arrayinfo169305
+Ref: arraymake173719
+Ref: arrays175512
+Ref: arraysetapply176641
+Ref: fillarray176859
+Ref: listarray179034
+Ref: make_array182743
+Ref: rearray184881
+Ref: remarray185251
+Ref: subvar185810
+Ref: subvarp186534
+Ref: use_fast_arrays186649
+Ref: translate_fast_arrays187307
+Node: Structures187747
+Node: Introduction to Structures187949
+Node: Functions and Variables for Structures189576
+Ref: structures189787
+Ref: defstruct189907
+Ref: new191464
+Node: Expressions193860
+Node: Introduction to Expressions194129
+Node: Nouns and Verbs195720
+Node: Identifiers198091
+Node: Inequality200272
+Node: Functions and Variables for Expressions200565
+Ref: alias200760
+Ref: aliases200989
+Ref: allbut201234
+Ref: args202230
+Ref: atom203356
+Ref: box203598
+Ref: boxchar205723
+Ref: collapse206042
+Ref: copy206577
+Ref: disolate207401
+Ref: dispform207897
+Ref: dpart209783
+Ref: exptisolate210390
+Ref: exptsubst210586
+Ref: freeof211279
+Ref: inflag215103
+Ref: inpart215794
+Ref: isolate217058
+Ref: isolate_wrt_times217917
+Ref: listconstvars218691
+Ref: listdummyvars219172
+Ref: listofvars219875
+Ref: lfreeof220437
+Ref: lpart220899
+Ref: mainvar221113
+Ref: noun221811
+Ref: noundisp222427
+Ref: nounify222627
+Ref: nterms223033
+Ref: op223389
+Ref: operatorp225107
+Ref: option_opsubst225458
+Ref: optimize226320
+Ref: optimprefix226693
+Ref: ordergreat226844
+Ref: orderless226844
+Ref: ordergreatp227638
+Ref: orderlessp227638
+Ref: part231369
+Ref: partition232814
+Ref: partswitch233401
+Ref: pickapart233615
+Ref: piece236590
+Ref: psubst236801
+Ref: rembox237634
+Ref: reveal240125
+Ref: sqrtdenest242657
+Ref: sublis243519
+Ref: sublis_apply_lambda243984
+Ref: subnumsimp244254
+Ref: subst244839
+Ref: substinpart248167
+Ref: substpart250578
+Ref: symbolp251731
+Ref: unorder251857
+Ref: verbify253230
+Node: Operators253609
+Node: Introduction to operators253914
+Node: Arithmetic operators258097
+Ref: +258277
+Ref: -258277
+Ref: *258277
+Ref: /258277
+Ref: ^258277
+Ref: **265274
+Ref: ^^266047
+Ref: .266793
+Node: Relational operators267221
+Ref: <267393
+Ref: <=267393
+Ref: >=267393
+Ref: >267393
+Node: Logical operators269911
+Ref: and270080
+Ref: not271081
+Ref: or271625
+Node: Operators for Equations272615
+Ref: #272796
+Ref: =273553
+Node: Assignment operators277603
+Ref: :277783
+Ref: ::280572
+Ref: ::=281320
+Ref: :=284261
+Node: User defined operators289984
+Ref: infix290136
+Ref: matchfix294406
+Ref: function_nary299055
+Ref: nofix299638
+Ref: postfix300187
+Ref: prefix300658
+Node: Evaluation301046
+Node: Functions and Variables for Evaluation301217
+Ref: quote301408
+Ref: quote-quote306020
+Ref: ev311493
+Ref: eval320171
+Ref: evflag320717
+Ref: evfun323256
+Ref: infeval326153
+Ref: noeval326518
+Ref: nouns326736
+Ref: pred327014
+Node: Simplification327369
+Node: Introduction to Simplification327600
+Node: Functions and Variables for Simplification337591
+Ref: additive337818
+Ref: antisymmetric338721
+Ref: combine339754
+Ref: commutative340336
+Ref: demoivre341073
+Ref: function_distrib341740
+Ref: distribute_over342637
+Ref: domain344873
+Ref: evenfun345044
+Ref: oddfun345044
+Ref: expand345718
+Ref: expandwrt349894
+Ref: expandwert_denom350462
+Ref: expandwrt_factored350856
+Ref: expon351200
+Ref: exponentialize351477
+Ref: expop352047
+Ref: lassociative352477
+Ref: linear352682
+Ref: maxnegex354342
+Ref: maxposex354522
+Ref: multiplicative354695
+Ref: multthru356578
+Ref: property_nary358899
+Ref: negdistrib359600
+Ref: opproperties360387
+Ref: define_opproperty360840
+Ref: outative362398
+Ref: radcan363646
+Ref: radexpand364877
+Ref: rassociative365685
+Ref: scsimp365882
+Ref: simp366299
+Ref: symmetric367954
+Ref: xthru368184
+Node: Mathematical Functions369398
+Node: Functions for Numbers369754
+Ref: abs369958
+Ref: ceiling373360
+Ref: entier377062
+Ref: floor377266
+Ref: fix379146
+Ref: hstep379207
+Ref: lmax379498
+Ref: lmin379682
+Ref: max379866
+Ref: min381603
+Ref: round383333
+Ref: signum383656
+Ref: truncate384405
+Node: Functions for Complex Numbers384715
+Ref: cabs384936
+Ref: carg388790
+Ref: conjugate390679
+Ref: imagpart391201
+Ref: polarform391781
+Ref: realpart392443
+Ref: rectform393019
+Node: Combinatorial Functions393474
+Ref: !!393704
+Ref: binomial394403
+Ref: factcomb395404
+Ref: !396318
+Ref: factorial396318
+Ref: factlim399821
+Ref: factorial_expand400009
+Ref: genfact400245
+Ref: minfactorial400476
+Ref: sumsplitfact401019
+Node: Root Exponential and Logarithmic Functions402013
+Ref: %e_to_numlog402277
+Ref: %emode402682
+Ref: %enumer404274
+Ref: exp405316
+Ref: li406250
+Ref: log408801
+Ref: logabs410218
+Ref: logarc410926
+Ref: logconcoeffp411151
+Ref: logcontract411568
+Ref: logexpand412561
+Ref: lognegint415661
+Ref: logsimp415817
+Ref: plog415966
+Ref: sqrt416109
+Node: Trigonometric Functions416259
+Node: Introduction to Trigonometric416564
+Node: Functions and Variables for Trigonometric417537
+Ref: %piargs417775
+Ref: %iargs419756
+Ref: acos420788
+Ref: acosh420834
+Ref: acot420892
+Ref: acoth420941
+Ref: acsc421002
+Ref: acsch421050
+Ref: asec421110
+Ref: asech421156
+Ref: asin421214
+Ref: asinh421258
+Ref: atan421314
+Ref: atan2421385
+Ref: atanh421522
+Ref: atrig1421581
+Ref: cos421980
+Ref: cosh422021
+Ref: cot422074
+Ref: coth422118
+Ref: csc422174
+Ref: csch422217
+Ref: halfangles422272
+Ref: sec424517
+Ref: sech424558
+Ref: sin424611
+Ref: sinh424650
+Ref: tan424701
+Ref: tanh424743
+Ref: trigexpand424797
+Ref: trigexpandplus426197
+Ref: trigexpandtimes426517
+Ref: triginverses426847
+Ref: trigreduce427334
+Ref: trigsign427960
+Ref: trigsimp428206
+Ref: trigrat428579
+Node: Random Numbers431445
+Ref: make_random_state431591
+Ref: set_random_state432350
+Ref: random432491
+Node: Maxima's Database434132
+Node: Introduction to Maxima's Database434452
+Node: Functions and Variables for Properties434691
+Ref: alphabetic434956
+Ref: bindtest435598
+Ref: constant436174
+Ref: constantp436738
+Ref: declare437990
+Ref: nary441238
+Ref: decreasing443133
+Ref: increasing443133
+Ref: even443736
+Ref: odd443736
+Ref: feature444386
+Ref: featurep444761
+Ref: features445282
+Ref: get446698
+Ref: integer447729
+Ref: noninteger447729
+Ref: integervalued448200
+Ref: nonarray448702
+Ref: nonscalar449280
+Ref: nonscalarp449420
+Ref: posfun449640
+Ref: printprops449793
+Ref: properties450333
+Ref: props450456
+Ref: propvars450739
+Ref: put450955
+Ref: qput451844
+Ref: rational452658
+Ref: irrational452658
+Ref: real452872
+Ref: imaginary452872
+Ref: complex452872
+Ref: rem453134
+Ref: remove453414
+Ref: scalar454966
+Ref: scalarp455096
+Node: Functions and Variables for Facts455397
+Ref: activate455657
+Ref: activecontexts456057
+Ref: askinteger456310
+Ref: asksign456976
+Ref: assume457374
+Ref: assumescalar459779
+Ref: assume_pos460680
+Ref: assume_pos_pred461823
+Ref: context464055
+Ref: contexts464621
+Ref: deactivate465970
+Ref: facts466100
+Ref: forget466567
+Ref: is466918
+Ref: killcontext468739
+Ref: maybe469474
+Ref: newcontext470227
+Ref: sign470683
+Ref: supcontext471082
+Node: Functions and Variables for Predicates471588
+Ref: charfun471811
+Ref: compare472421
+Ref: equal473555
+Ref: notequal477759
+Ref: unknown478694
+Ref: zeroequiv478848
+Node: Plotting480016
+Node: Introduction to Plotting480322
+Node: Plotting Formats482965
+Node: Functions and Variables for Plotting486558
+Ref: geomview_command486774
+Ref: get_plot_option487236
+Ref: gnuplot_command487647
+Ref: gnuplot_file_args488121
+Ref: gnuplot_view_args488735
+Ref: julia490178
+Ref: make_transform491919
+Ref: mandelbrot492666
+Ref: polar_to_xy494138
+Ref: plot2d494453
+Ref: plot3d503048
+Ref: plot_options507448
+Ref: remove_plot_option507740
+Ref: set_plot_option507954
+Ref: spherical_to_xyz509216
+Node: Plotting Options509662
+Ref: adapt_depth510856
+Ref: axes511392
+Ref: azimuth511984
+Ref: option_box512500
+Ref: color512802
+Ref: color_bar513552
+Ref: color_bar_tics514088
+Ref: elevation514822
+Ref: grid515342
+Ref: grid2d515637
+Ref: iterations516097
+Ref: label516243
+Ref: legend516410
+Ref: levels517065
+Ref: logx517864
+Ref: logy518156
+Ref: mesh_lines_color518446
+Ref: nticks519101
+Ref: palette519448
+Ref: plotepsilon521131
+Ref: plot_format521930
+Ref: plot_real_part522274
+Ref: point_type523125
+Ref: pdf_file523658
+Ref: png_file524448
+Ref: ps_file525175
+Ref: run_viewer525994
+Ref: same_xy527214
+Ref: same_xyz527531
+Ref: sample527810
+Ref: style528650
+Ref: svg_file530562
+Ref: t531275
+Ref: title531355
+Ref: transform_xy531462
+Ref: window531875
+Ref: x532103
+Ref: xlabel532503
+Ref: xtics532879
+Ref: xy_scale533642
+Ref: y534180
+Ref: ylabel534471
+Ref: ytics534830
+Ref: yx_ratio535593
+Ref: z535778
+Ref: zlabel535918
+Ref: zmin536278
+Ref: ztics536539
+Node: Gnuplot Options537302
+Ref: gnuplot_term537840
+Ref: gnuplot_out_file540126
+Ref: gnuplot_script_file541140
+Ref: gnuplot_pm3d543228
+Ref: gnuplot_preamble543396
+Ref: gnuplot_postamble543691
+Ref: gnuplot_default_term_command544024
+Ref: gnuplot_dumb_term_command544317
+Ref: gnuplot_pdf_term_command544632
+Ref: gnuplot_png_term_command544991
+Ref: gnuplot_ps_term_command545312
+Ref: gnuplot_strings545715
+Ref: gnuplot_svg_term_command546296
+Ref: gnuplot_curve_titles546612
+Ref: gnuplot_curve_styles546741
+Node: Gnuplot_pipes Format Functions546848
+Ref: gnuplot_start547020
+Ref: gnuplot_close547206
+Ref: gnuplot_send547323
+Ref: gnuplot_restart547523
+Ref: gnuplot_replot547663
+Ref: gnuplot_reset547924
+Node: File Input and Output548112
+Node: Comments548438
+Node: Files549699
+Node: Functions and Variables for File Input and Output550898
+Ref: appendfile551177
+Ref: batch551474
+Ref: batchload554763
+Ref: closefile555724
+Ref: file_output_append555824
+Ref: filename_merge556437
+Ref: file_search556799
+Ref: file_search_maxima558604
+Ref: file_search_lisp558604
+Ref: file_search_demo558604
+Ref: file_search_usage558604
+Ref: file_search_tests558604
+Ref: file_type560234
+Ref: file_type_lisp561101
+Ref: file_type_maxima561315
+Ref: load561566
+Ref: load_pathname563280
+Ref: loadfile564129
+Ref: loadprint564542
+Ref: directory565054
+Ref: pathname_directory565525
+Ref: pathname_name565525
+Ref: pathname_type565525
+Ref: printfile566085
+Ref: save566665
+Ref: stringout569550
+Ref: with_stdout571731
+Ref: writefile572916
+Node: Functions and Variables for TeX Output574126
+Ref: tex574567
+Ref: tex1576868
+Ref: texput577214
+Ref: get_tex_environment582188
+Ref: get_tex_enviroment_default583448
+Node: Functions and Variables for Fortran Output584656
+Ref: fortindent584900
+Ref: fortran585210
+Ref: fortspaces587712
+Node: Polynomials587878
+Node: Introduction to Polynomials588102
+Node: Functions and Variables for Polynomials591152
+Ref: algebraic591348
+Ref: berlefact591523
+Ref: bezout591749
+Ref: bothcoef592400
+Ref: content596767
+Ref: denom597242
+Ref: divide597972
+Ref: eliminate598598
+Ref: ezgcd599910
+Ref: factor601372
+Ref: factor_max_degree607702
+Ref: factor_max_degree_print_warning609207
+Ref: factorflag609539
+Ref: factorout609710
+Ref: factorsum610399
+Ref: fasttimes611252
+Ref: fullratsimp611681
+Ref: fullratsubst613314
+Ref: fullratsubstflag615595
+Ref: gcd615728
+Ref: gcdex617866
+Ref: gcfactor619630
+Ref: gfactor619910
+Ref: gfactorsum620249
+Ref: hipow620364
+Ref: intfaclim621256
+Ref: lowpow622820
+Ref: lratsubst623040
+Ref: lrats_max_iter624802
+Ref: modulus625052
+Ref: num626915
+Ref: polydecomp627683
+Ref: polymod629613
+Ref: polynomialp629974
+Ref: quotient631649
+Ref: rat631993
+Ref: ratcoef634822
+Ref: ratdenom635929
+Ref: ratdiff638389
+Ref: ratdisrep640232
+Ref: ratexpand640665
+Ref: ratfac642912
+Ref: ratnumer643914
+Ref: ratp644527
+Ref: ratsimp644997
+Ref: radsubstflag647372
+Ref: ratsubst647549
+Ref: ratvars649148
+Ref: resultant653707
+Ref: option_resultant655200
+Ref: savefactors655758
+Ref: showratvars656064
+Ref: sqfr656227
+Ref: totaldisrep659219
+Ref: untelltat659638
+Node: Special Functions659742
+Node: Introduction to Special Functions660189
+Node: Bessel Functions662299
+Ref: bessel_j662479
+Ref: bessel_y663000
+Ref: bessel_i663424
+Ref: bessel_k663962
+Ref: hankel_1664405
+Ref: hankel_2666057
+Ref: besselexpand666713
+Ref: scaled_bessel_i667703
+Ref: scaled_bessel_i0668189
+Ref: scaled_bessel_i1668270
+Node: Airy Functions668470
+Ref: airy_ai669022
+Ref: airy_dai669207
+Ref: airy_bi669316
+Ref: airy_dbi669484
+Node: Gamma and factorial Functions669607
+Ref: bffac669976
+Ref: bfpsi670196
+Ref: cbffac670583
+Ref: gamma670698
+Ref: gamma_incomplete674464
+Ref: gamma_expand676356
+Ref: gammalim678024
+Ref: makegamma678424
+Ref: beta678591
+Ref: makefact700956
+Node: Exponential Integrals701672
+Node: Error Function704057
+Ref: erf704347
+Ref: erfc704447
+Node: Struve Functions705863
+Node: Hypergeometric Functions706362
+Node: Parabolic Cylinder Functions708754
+Node: Functions and Variables for Special Functions709348
+Ref: specint709589
+Ref: hgfred715191
+Node: Elliptic Functions718138
+Node: Introduction to Elliptic Functions and Integrals718447
+Node: Functions and Variables for Elliptic Functions722245
+Ref: jacobi_sn722548
+Ref: jacobi_cn722629
+Ref: jacobi_dn722710
+Ref: jacobi_ns722791
+Ref: jacobi_sc722884
+Ref: jacobi_sd722983
+Ref: jacobi_nc723082
+Ref: jacobi_cs723175
+Ref: jacobi_cd723274
+Ref: jacobi_nd723373
+Ref: jacobi_ds723466
+Ref: jacobi_dc723565
+Ref: inverse_jacobi_sn723664
+Ref: inverse_jacobi_cn723768
+Ref: inverse_jacobi_dn723872
+Ref: inverse_jacobi_ns723976
+Ref: inverse_jacobi_sc724080
+Ref: inverse_jacobi_sd724184
+Ref: inverse_jacobi_nc724288
+Ref: inverse_jacobi_cs724392
+Ref: inverse_jacobi_cd724496
+Ref: inverse_jacobi_nd724600
+Ref: inverse_jacobi_ds724704
+Ref: inverse_jacobi_dc724808
+Node: Functions and Variables for Elliptic Integrals724912
+Ref: elliptic_f725158
+Ref: elliptic_e725375
+Ref: elliptic_eu725612
+Ref: elliptic_pi725964
+Ref: elliptic_kc726143
+Ref: elliptic_ec726429
+Ref: carlson_rc726714
+Ref: carlson_rd727477
+Ref: carlson_rf727931
+Ref: carlson_rj728357
+Node: Limits728535
+Node: Functions and Variables for Limits728702
+Ref: lhospitallim728875
+Ref: limit729109
+Ref: limsubst731154
+Ref: tlimit731421
+Ref: tlimswitch731657
+Ref: gruntz732122
+Node: Differentiation733477
+Node: Functions and Variables for Differentiation733664
+Ref: antid733882
+Ref: antidiff736284
+Ref: at738520
+Ref: atomgrad741590
+Ref: atvalue741726
+Ref: cartan744317
+Ref: init_cartan744890
+Ref: del745634
+Ref: delta746370
+Ref: dependencies746725
+Ref: depends748380
+Ref: derivabbrev751012
+Ref: derivdegree751265
+Ref: derivlist751881
+Ref: derivsubst752036
+Ref: diff752240
+Ref: symbol_diff755575
+Ref: express755725
+Ref: gradef758438
+Ref: gradefs760438
+Ref: laplace760717
+Node: Integration765359
+Node: Introduction to Integration765639
+Node: Functions and Variables for Integration766623
+Ref: changevar766870
+Ref: dblint769171
+Ref: defint771644
+Ref: erfflag772195
+Ref: ilt772413
+Ref: intanalysis774718
+Ref: integrate776195
+Ref: integration_constant784660
+Ref: integration_constant_counter785524
+Ref: integrate_use_rootsof786874
+Ref: ldefint789224
+Ref: pwilt789941
+Ref: potential790918
+Ref: residue791466
+Ref: risch792143
+Ref: tldefint793193
+Node: Introduction to QUADPACK793304
+Ref: Introduction to QUADPACK-Footnote-1797016
+Ref: Introduction to QUADPACK-Footnote-2797082
+Ref: Introduction to QUADPACK-Footnote-3797148
+Ref: Introduction to QUADPACK-Footnote-4797192
+Ref: Introduction to QUADPACK-Footnote-5797254
+Ref: Introduction to QUADPACK-Footnote-6797294
+Ref: Introduction to QUADPACK-Footnote-7797336
+Node: Functions and Variables for QUADPACK797521
+Ref: quad_qag797723
+Ref: quad_qags800470
+Ref: quad_qagi802643
+Ref: quad_qawc805113
+Ref: quad_qawf808304
+Ref: quad_qawo810948
+Ref: quad_qaws813850
+Ref: quad_qagp816735
+Ref: quad_control819301
+Node: Equations819903
+Node: Functions and Variables for Equations820082
+Ref: %rnum820270
+Ref: %rnum_list820510
+Ref: algepsilon821552
+Ref: algexact821650
+Ref: algsys822231
+Ref: allroots827021
+Ref: bfallroots829384
+Ref: backsubst829787
+Ref: breakup830501
+Ref: dimension833775
+Ref: dispflag834023
+Ref: funcsolve834318
+Ref: globalsolve835256
+Ref: ieqn837264
+Ref: ieqnprint841236
+Ref: lhs841912
+Ref: linsolve843543
+Ref: linsolvewarn846675
+Ref: linsolve_params846841
+Ref: multiplicities847208
+Ref: nroots847410
+Ref: nthroot847812
+Ref: polyfactor848153
+Ref: programmode848485
+Ref: realonly848933
+Ref: realroots849092
+Ref: rhs851170
+Ref: rootsconmode852795
+Ref: rootscontract852969
+Ref: rootsepsilon855637
+Ref: solve855833
+Ref: solvedecomposes862858
+Ref: solveexplicit863026
+Ref: solvefactors863260
+Ref: solvenullwarn863501
+Ref: solveradcan863798
+Ref: solvetrigwarn864041
+Node: Differential Equations864289
+Node: Introduction to Differential Equations864548
+Node: Functions and Variables for Differential Equations865167
+Ref: bc2865436
+Ref: desolve866044
+Ref: ic1868135
+Ref: ic2868573
+Ref: ode2869228
+Node: Numerical873206
+Node: Introduction to fast Fourier transform873676
+Node: Functions and Variables for fast Fourier transform874237
+Ref: polartorect874484
+Ref: recttopolar875090
+Ref: inverse_fft875768
+Ref: fft878354
+Ref: real_fft882886
+Ref: inverse_real_fft883631
+Ref: bf_inverse_fft883992
+Ref: bf_fft884212
+Ref: bf_real_fft884416
+Ref: bf_inverse_real_fft884606
+Node: Functions and Variables for FFTPACK5884795
+Ref: fftpack5_fft885479
+Ref: fftpack5_inverse_fft887765
+Ref: fftpack5_real_fft887931
+Ref: fftpack5_inverse_real_fft888783
+Node: Functions for numerical solution of equations889215
+Ref: horner889507
+Ref: find_root890639
+Ref: bf_find_root890639
+Ref: find_root_error890639
+Ref: find_root_abs890639
+Ref: find_root_rel890639
+Ref: newton894679
+Node: Introduction to numerical solution of differential equations895968
+Node: Functions for numerical solution of differential equations897269
+Ref: rk907704
+Node: Matrices and Linear Algebra911214
+Node: Introduction to Matrices and Linear Algebra911495
+Node: Dot911854
+Node: Matrices913258
+Node: Vectors914755
+Node: eigen915843
+Node: Functions and Variables for Matrices and Linear Algebra916636
+Ref: addcol916930
+Ref: addrow917120
+Ref: adjoint917307
+Ref: augcoefmatrix917458
+Ref: cauchy_matrix918122
+Ref: charpoly919525
+Ref: coefmatrix921155
+Ref: col921603
+Ref: columnvector921720
+Ref: covect921720
+Ref: copymatrix922668
+Ref: determinant923114
+Ref: detout923461
+Ref: diagmatrix924435
+Ref: doallmxops924924
+Ref: domxexpt925191
+Ref: domxmxops926472
+Ref: domxnctimes926734
+Ref: dontfactor926891
+Ref: doscmxops927322
+Ref: doscmxplus927463
+Ref: dot0nscsimp927661
+Ref: dot0simp927858
+Ref: dot1simp928046
+Ref: dotassoc928232
+Ref: dotconstrules928377
+Ref: dotdistrib928683
+Ref: dotexptsimp928837
+Ref: dotident928981
+Ref: dotscrules929084
+Ref: echelon929278
+Ref: eigenvalues930738
+Ref: eivals930738
+Ref: eigenvectors932351
+Ref: eivects932351
+Ref: ematrix937144
+Ref: entermatrix937315
+Ref: genmatrix938685
+Ref: gramschmidt941436
+Ref: ident943954
+Ref: innerproduct944026
+Ref: inprod944026
+Ref: invert_by_adjoint944489
+Ref: invert944717
+Ref: list_matrix_entries945819
+Ref: lmxchar946047
+Ref: matrix946554
+Ref: matrixexp952578
+Ref: matrixmap953001
+Ref: matrixp953163
+Ref: matrix_element_add953258
+Ref: matrix_element_mult954562
+Ref: matrix_element_transpose956532
+Ref: mattrace958724
+Ref: minor958997
+Ref: ncharpoly959142
+Ref: newdet959937
+Ref: permanent960108
+Ref: rank960374
+Ref: ratmx960651
+Ref: row961242
+Ref: rmxchar961356
+Ref: scalarmatrixp961516
+Ref: scalefactors961973
+Ref: setelmx963024
+Ref: similaritytransform963257
+Ref: simtran963257
+Ref: sparse964443
+Ref: submatrix964647
+Ref: transpose964961
+Ref: triangularize965351
+Ref: uniteigenvectors966401
+Ref: ueivects966401
+Ref: unitvector967684
+Ref: uvect967684
+Ref: vectorpotential967917
+Ref: vectorsimp968241
+Ref: vect_cross969574
+Ref: zeromatrix969788
+Node: Affine969893
+Node: Introduction to Affine970088
+Node: Functions and Variables for Affine970327
+Ref: fast_linsolve970516
+Ref: grobner_basis971180
+Ref: set_up_dot_simplifications971768
+Ref: declare_weights972670
+Ref: nc_degree972913
+Ref: dotsimp973077
+Ref: fast_central_elements973325
+Ref: check_overlaps973738
+Ref: mono974366
+Ref: monomial_dimensions974608
+Ref: extract_linear_equations974774
+Ref: list_nc_monomials975162
+Ref: all_dotsimp_denoms975456
+Node: itensor975798
+Node: Introduction to itensor975977
+Node: Functions and Variables for itensor988696
+Ref: dispcon988955
+Ref: entertensor989223
+Ref: changename989540
+Ref: listoftens989921
+Ref: ishow990457
+Ref: indices990800
+Ref: rename991806
+Ref: flipflag994990
+Ref: defcon995575
+Ref: remcon996588
+Ref: contract_Itensor996851
+Ref: indexed_tensor997344
+Ref: components997579
+Ref: remcomps1001706
+Ref: showcomps1001837
+Ref: idummy1004264
+Ref: idummyx1004571
+Ref: icounter1004698
+Ref: kdelta1004935
+Ref: kdels1005733
+Ref: levi_civita1006596
+Ref: lc2kdt1006852
+Ref: lc_l1010299
+Ref: lc_u1011373
+Ref: canten1011663
+Ref: concan1012240
+Ref: allsym1012384
+Ref: decsym1012742
+Ref: remsym1015278
+Ref: canform1015440
+Ref: itensor_diff1016451
+Ref: idiff1017840
+Ref: liediff1018553
+Ref: rediff1019353
+Ref: undiff1019478
+Ref: evundiff1019969
+Ref: flush1022345
+Ref: flushd1022505
+Ref: flushnd1022663
+Ref: coord1023386
+Ref: remcoord1023782
+Ref: makebox1024075
+Ref: conmetderiv1024333
+Ref: simpmetderiv1025207
+Ref: flush1deriv1028327
+Ref: imetric1028541
+Ref: idim1028931
+Ref: ichr11029105
+Ref: ichr21029461
+Ref: icurvature1029749
+Ref: covdiff1030324
+Ref: lorentz1032260
+Ref: igeodesic_coords1032460
+Ref: iframes1037685
+Ref: ifb1037885
+Ref: icc11038889
+Ref: icc21039490
+Ref: ifc11040130
+Ref: ifc21040570
+Ref: ifr1040973
+Ref: ifri1041103
+Ref: ifg1041298
+Ref: ifgi1041408
+Ref: iframe_bracket_form1041519
+Ref: inm1041978
+Ref: inmc11042315
+Ref: inmc21042682
+Ref: ikt11043220
+Ref: ikt21043658
+Ref: itr1043931
+Ref: ~1048502
+Ref: |1050068
+Ref: extdiff1051455
+Ref: hodge1052938
+Ref: igeowedge_flag1054438
+Ref: tentex1055243
+Ref: ic_convert1056723
+Node: ctensor1059743
+Node: Introduction to ctensor1059923
+Node: Functions and Variables for ctensor1064324
+Ref: csetup1064583
+Ref: cmetric1064794
+Ref: ct1065717
+Ref: init1071942
+Ref: christof1073311
+Ref: ricci1074206
+Ref: uricci1074476
+Ref: scurvature1075009
+Ref: einstein1075170
+Ref: leinstein1075765
+Ref: riemann1076169
+Ref: lriemann1077420
+Ref: uriemann1077891
+Ref: rinvariant1078085
+Ref: weyl1078332
+Ref: ctaylor1079389
+Ref: frame1084904
+Ref: nptetrad1085502
+Ref: psi1086204
+Ref: petrov1087482
+Ref: contortion1092834
+Ref: nonmetricity1092952
+Ref: ctransform1093139
+Ref: findde1093532
+Ref: cograd1095878
+Ref: contragrad1096076
+Ref: ctensor_dscalar1097214
+Ref: checkdiv1098117
+Ref: cgeodesic1098560
+Ref: bdvac1098853
+Ref: invariant11099249
+Ref: invariant21099455
+Ref: bimetric1099713
+Ref: diagmatrixp1099961
+Ref: symmetricp1100107
+Ref: ntermst1100443
+Ref: cdisplay1100813
+Ref: deleten1114357
+Ref: dim1114542
+Ref: diagmetric1114792
+Ref: ctrgsimp1115251
+Ref: cframe_flag1115448
+Ref: ctorsion_flag1115880
+Ref: cnonmet_flag1116121
+Ref: ctayswitch1116404
+Ref: ctayvar1116659
+Ref: ctaypov1116776
+Ref: ctaypt1116899
+Ref: gdet1117033
+Ref: ratchristof1117175
+Ref: rateinstein1117275
+Ref: ratriemann1117517
+Ref: ratweyl1117795
+Ref: lfg1118052
+Ref: ufg1118242
+Ref: riem1118381
+Ref: lriem1118666
+Ref: uriem1118748
+Ref: ric1118834
+Ref: uric1118909
+Ref: lg1118988
+Ref: ug1119140
+Ref: weyl_variable1119222
+Ref: fb1119286
+Ref: kinvariant1119370
+Ref: np1119456
+Ref: npi1119535
+Ref: tr1120167
+Ref: kt1120269
+Ref: nm1120352
+Ref: nmc1120436
+Ref: tensorkill1120535
+Ref: ct_coords1120694
+Node: atensor1124099
+Node: Introduction to atensor1124296
+Node: Functions and Variables for atensor1128224
+Ref: init_atensor1128418
+Ref: atensimp1130922
+Ref: alg_type1131330
+Ref: adim1131483
+Ref: aform1131684
+Ref: asymbol1131855
+Ref: sf1131937
+Ref: af1132224
+Ref: av1132517
+Ref: abasep1133542
+Node: Sums Products and Series1133798
+Node: Functions and Variables for Sums and Products1134216
+Ref: bashindices1134489
+Ref: lsum1134918
+Ref: intosum1135605
+Ref: simpproduct1136112
+Ref: product1136510
+Ref: simpsum1139040
+Ref: sum1139415
+Ref: sumcontract1144014
+Ref: sumexpand1144603
+Node: Introduction to Series1145550
+Node: Functions and Variables for Series1146125
+Ref: cauchysum1146371
+Ref: deftaylor1147652
+Ref: maxtayorder1148982
+Ref: niceindices1149221
+Ref: niceindicespref1150652
+Ref: nusum1151737
+Ref: pade1153885
+Ref: powerseries1156963
+Ref: psexpand1158881
+Ref: revert1159334
+Ref: taylor1161207
+Ref: taylordepth1169148
+Ref: taylorinfo1169401
+Ref: taylorp1170295
+Ref: taylor_logexpand1170401
+Ref: taylor_order_coefficients1171006
+Ref: taylor_simplifier1171288
+Ref: taylor_truncate_polynomials1171424
+Ref: taytorat1171719
+Ref: trunc1171915
+Ref: unsum1172488
+Ref: verbose1173696
+Node: Introduction to Fourier series1173826
+Node: Functions and Variables for Fourier series1174314
+Ref: equalp1174604
+Ref: remfun1174778
+Ref: funp1175109
+Ref: absint1175451
+Ref: fourier1176073
+Ref: foursimp1176215
+Ref: sinnpiflag1176369
+Ref: cosnpiflag1176451
+Ref: fourexpand1176533
+Ref: fourcos1176780
+Ref: foursin1176908
+Ref: totalfourier1177034
+Ref: fourint1177164
+Ref: fourintcos1177316
+Ref: forintsin1177443
+Node: Functions and Variables for Poisson series1177568
+Ref: intopois1177819
+Ref: outopois1177892
+Ref: poisdiff1178251
+Ref: poisexpt1178409
+Ref: poisint1178536
+Ref: poislim1178717
+Ref: poismap1179013
+Ref: poisplus1179331
+Ref: poissimp1179421
+Ref: poisson1179532
+Ref: poissubst1179643
+Ref: poistimes1180538
+Ref: poistrim1180631
+Ref: printpois1181010
+Node: Number Theory1181197
+Node: Functions and Variables for Number Theory1181393
+Ref: bern1181601
+Ref: bernpoly1182359
+Ref: bfzeta1182461
+Ref: bfhzeta1182658
+Ref: burn1183268
+Ref: chinese1184171
+Ref: cf1185122
+Ref: cfdisrep1188014
+Ref: cfexpand1188699
+Ref: cflength1189340
+Ref: divsum1189955
+Ref: euler1190519
+Ref: factors_only1191042
+Ref: fib1191413
+Ref: fibtophi1191864
+Ref: ifactors1193060
+Ref: igcdex1194270
+Ref: inrt1194950
+Ref: inv_mod1195240
+Ref: isqrt1195643
+Ref: jacobi1195766
+Ref: lcm1196023
+Ref: lucas1196239
+Ref: mod1197130
+Ref: next_prime1198365
+Ref: partfrac1198521
+Ref: power_mod1199834
+Ref: primep1200375
+Ref: primep_number_of_tests1201137
+Ref: primes1201260
+Ref: prev_time1201436
+Ref: qunit1201593
+Ref: totient1202009
+Ref: zeta1202369
+Ref: zeta%pi1203755
+Ref: zn_add_table1204358
+Ref: zn_characteristic_factors1204501
+Ref: zn_carmichael_lambda1208018
+Ref: zn_determinant1208233
+Ref: zn_factor_generators1209324
+Ref: zn_invert_by_lu1209552
+Ref: zn_log1210566
+Ref: zn_mult_table1213738
+Ref: zn_nth_root1219135
+Ref: zn_order1223876
+Ref: zn_power_table1226087
+Ref: zn_primroot1230888
+Ref: zn_primroot_limit1233348
+Ref: zn_primroot_p1233659
+Ref: zn_primroot_pretest1235457
+Ref: zn_primroot_verbose1235945
+Node: Symmetries1236109
+Node: Introduction to Symmetries1236309
+Node: Functions and Variables for Symmetries1237768
+Ref: comp2pui1238022
+Ref: ele2pui1238621
+Ref: ele2comp1238830
+Ref: elem1239039
+Ref: mon2schur1240476
+Ref: multi1241615
+Ref: multi_pui1242345
+Ref: pui1242793
+Ref: pui2comp1244124
+Ref: pui2ele1245383
+Ref: puireduc1245773
+Ref: schur2comp1246456
+Ref: cont2part1247176
+Ref: contract1247618
+Ref: explose1248455
+Ref: part2cont1248719
+Ref: partpol1249073
+Ref: tcontract1249358
+Ref: tpartpol1249571
+Ref: direct1249836
+Ref: multi_orbit1253507
+Ref: multsym1254180
+Ref: orbit1254998
+Ref: pui_direct1255547
+Ref: kostka1257781
+Ref: lgtreillis1258027
+Ref: ltreillis1258271
+Ref: treillis1258545
+Ref: treinat1258772
+Ref: ele2polynome1259394
+Ref: polynome2ele1260211
+Ref: prodrac1260800
+Ref: pui2polynome1261046
+Ref: somrac1261704
+Ref: resolvante1261994
+Ref: resolvante_alternee11269345
+Ref: resolvante_bipartite1269717
+Ref: resolvante_diedrale1270276
+Ref: resolvante_klein1270966
+Ref: resolvante_klein31271291
+Ref: resolvante_produit_sym1271616
+Ref: resolvante_unitaire1272689
+Ref: resolvante_vierer1273012
+Ref: multinomial1273378
+Ref: permut1273652
+Node: Groups1273735
+Node: Functions and Variables for Groups1273898
+Ref: todd_coxeter1274071
+Node: Runtime Environment1275856
+Node: Introduction for Runtime Environment1276125
+Node: Interrupts1277241
+Node: Functions and Variables for Runtime Environment1278356
+Ref: maxima_tempdir1278585
+Ref: maxima_userdir1279040
+Ref: room1279737
+Ref: sstatus1280138
+Ref: status1280596
+Ref: system1281601
+Ref: time1282409
+Ref: timedate1282893
+Ref: parse_timedate1284822
+Ref: encode_time1288454
+Ref: decode_time1290970
+Ref: absolute_real_time1292712
+Ref: elapsed_real_time1293142
+Ref: elapsed_run_time1293641
+Node: Miscellaneous Options1294193
+Node: Introduction to Miscellaneous Options1294476
+Node: Share1294887
+Node: Functions and Variables for Miscellaneous Options1295567
+Ref: askexp1295799
+Ref: genindex1296028
+Ref: gensumnum1296194
+Ref: gensym1296443
+Ref: packagefile1297410
+Ref: remvalue1298124
+Ref: rncombine1298566
+Ref: setup_autoload1299263
+Ref: tcl_output1300652
+Node: Rules and Patterns1301862
+Node: Introduction to Rules and Patterns1302108
+Node: Functions and Variables for Rules and Patterns1303139
+Ref: apply11303388
+Ref: apply21304036
+Ref: applyb11304571
+Ref: current_let_rule_package1305282
+Ref: default_let_rule_package1305857
+Ref: defmatch1306141
+Ref: defrule1310674
+Ref: disprule1311370
+Ref: let1312753
+Ref: letrat1317015
+Ref: letrules1317843
+Ref: letsimp1318381
+Ref: let_rule_packages1320611
+Ref: matchdeclare1320832
+Ref: maxapplydepth1328710
+Ref: maxapplyheight1328863
+Ref: remlet1329024
+Ref: remrule1329986
+Ref: tellsimp1332024
+Ref: tellsimpafter1334456
+Ref: clear_rules1343659
+Node: Sets1343828
+Node: Introduction to Sets1344016
+Node: Functions and Variables for Sets1351189
+Ref: adjoin1351368
+Ref: belln1351845
+Ref: cardinality1352828
+Ref: cartesian_product1353360
+Ref: cartesian_product_list1354115
+Ref: disjoin1357795
+Ref: disjointp1358477
+Ref: divisors1358862
+Ref: elementp1360436
+Ref: emptyp1360824
+Ref: equiv_classes1361141
+Ref: every1362486
+Ref: extremal_subset1365301
+Ref: flatten1366075
+Ref: full_listify1368658
+Ref: fullsetify1369188
+Ref: identity1369777
+Ref: integer_partitions1370053
+Ref: intersect1371932
+Ref: intersection1372037
+Ref: listify1373869
+Ref: makeset1374282
+Ref: moebius1375888
+Ref: multinomial_coeff1377106
+Ref: num_distinct_partitions1378401
+Ref: num_partitions1379271
+Ref: partition_set1380187
+Ref: permutations1380930
+Ref: powerset1381497
+Ref: random_permutation1382594
+Ref: setdifference1383391
+Ref: setequalp1384259
+Ref: setify1384883
+Ref: setp1385463
+Ref: set_partitions1386005
+Ref: some1387641
+Ref: stirling11390567
+Ref: stirling21391893
+Ref: subset1393343
+Ref: subsetp1393950
+Ref: symmdifference1394343
+Ref: union1395378
+Node: Function Definition1396354
+Node: Introduction to Function Definition1396620
+Node: Function1396839
+Ref: memoizing function1400209
+Ref: memoizing functions1400209
+Ref: Memoizing function1400209
+Ref: Memoizing functions1400209
+Node: Macros1403091
+Ref: buildq1403251
+Ref: macroexpand1407548
+Ref: macroexpand11408774
+Ref: macros1409912
+Ref: splice1410235
+Node: Functions and Variables for Function Definition1411865
+Ref: apply1412090
+Ref: block1414706
+Ref: break1417898
+Ref: catch1418147
+Ref: compfile1419254
+Ref: compile1420035
+Ref: define1421572
+Ref: define_variable1425687
+Ref: dispfun1429876
+Ref: fullmap1433625
+Ref: fullmapl1434286
+Ref: functions1434550
+Ref: fundef1436371
+Ref: funmake1437322
+Ref: lambda1440490
+Ref: local1446426
+Ref: macroexpansion1447756
+Ref: mode_declare1453886
+Ref: modedeclare1453886
+Ref: mode_checkp1457539
+Ref: mode_check_errorp1458636
+Ref: mode_check_warnp1458774
+Ref: mode_identity1458908
+Ref: remfunction1460396
+Ref: savedef1461139
+Ref: translate1461534
+Ref: translate_file1463910
+Ref: transrun1466369
+Ref: tr_array_as_ref1466601
+Ref: tr_bound_function_applyp1467029
+Ref: tr_file_tty_messagesp1468081
+Ref: tr_float_can_branch_complex1468445
+Ref: tr_function_call_default1468928
+Ref: tr_numer1469626
+Ref: tr_optimize_max_loop1469791
+Ref: tr_state_vars1470113
+Ref: tr_warnings_get1470643
+Ref: tr_warn_fexpr1471024
+Ref: tr_warn_meval1471267
+Ref: tr_warn_mode1471466
+Ref: tr_warn_undeclared1471621
+Ref: tr_warn_undefined_variable1471777
+Ref: compile_file1471918
+Ref: declare_translated1473197
+Node: Program Flow1473815
+Node: Lisp and Maxima1474077
+Node: Garbage Collection1478147
+Ref: garbage_collect1478685
+Node: Introduction to Program Flow1479066
+Node: Functions and Variables for Program Flow1479383
+Ref: backtrace1479602
+Ref: do1481232
+Ref: while1481232
+Ref: unless1481232
+Ref: for1481232
+Ref: from1481232
+Ref: thru1481232
+Ref: step1481232
+Ref: next1481232
+Ref: in1481232
+Ref: errcatch1490321
+Ref: error1490853
+Ref: warning1491472
+Ref: error_size1491780
+Ref: error_syms1493325
+Ref: errormsg_fn1493954
+Ref: errormsg1494111
+Ref: go1495311
+Ref: if1495827
+Ref: map1498404
+Ref: mapatom1500275
+Ref: maperror1500516
+Ref: mapprint1501039
+Ref: maplist1501412
+Ref: prederror1501860
+Ref: return1502326
+Ref: scanmap1503524
+Ref: throw1505163
+Ref: outermap1505342
+Node: Debugging1512120
+Node: Source Level Debugging1512341
+Node: Keyword Commands1516206
+Node: Functions and Variables for Debugging1518402
+Ref: debugmode1518597
+Ref: refcheck1519132
+Ref: setcheck1519325
+Ref: setcheckbreak1520493
+Ref: setval1520973
+Ref: timer1521218
+Ref: untimer1522361
+Ref: timer_devalue1522957
+Ref: timer_info1523377
+Ref: trace1524140
+Ref: trace_options1525243
+Ref: untrace1527422
+Node: alt-display-pkg1527765
+Node: Introduction to alt-display1527974
+Node: Functions and Variables for alt-display1530778
+Ref: alt_display_output_type1530996
+Ref: define_alt_display1532742
+Ref: info_display1534361
+Ref: mathml_display1534682
+Ref: tex_display1535044
+Ref: multi_display_for_texinfo1535314
+Ref: reset_displays1536235
+Ref: set_alt_display1536396
+Ref: set_prompt1537192
+Ref: Functions and Variables for alt-display-Footnote-11539736
+Node: asympa-pkg1539867
+Node: Introduction to asympa1540071
+Ref: asympa1540259
+Node: Functions and variables for asympa1540579
+Node: augmented_lagrangian-pkg1540772
+Node: Functions and Variables for augmented_lagrangian1540989
+Ref: augmented_lagrangian_method1541240
+Node: Bernstein-pkg1544898
+Node: Functions and Variables for Bernstein1545083
+Ref: bernstein_poly1545279
+Ref: bernstein_explicit1547145
+Ref: multibernstein_poly1547774
+Ref: bernstein_approx1548205
+Ref: bernstein_expand1549457
+Node: bitwise-pkg1549952
+Node: Functions and Variables for bitwise1550413
+Ref: bit_not1550583
+Ref: bit_and1551124
+Ref: bit_or1551977
+Ref: bit_xor1552824
+Ref: bit_lsh1553681
+Ref: bit_rsh1554433
+Ref: bit_length1555201
+Ref: bit_onep1555724
+Node: bode-pkg1557290
+Node: Functions and Variables for bode1557441
+Ref: bode_gain1557612
+Ref: bode_phase1559016
+Node: celine-pkg1560668
+Node: Introduction to celine1560820
+Node: clebsch_gordan-pkg1564653
+Node: Functions and Variables for clebsch_gordan1564843
+Ref: clebsch_gordan1565064
+Ref: racah_v1565199
+Ref: racah_w1565358
+Ref: wigner_3j1565501
+Ref: wigner_6j1565662
+Ref: wigner_9j1565758
+Node: cobyla-pkg1565879
+Node: Introduction to cobyla1566103
+Node: Functions and Variables for cobyla1568561
+Ref: fmin_cobyla1568782
+Ref: bf_fmin_cobyla1571546
+Node: Examples for cobyla1571929
+Node: combinatorics-pkg1573565
+Node: Package combinatorics1573782
+Node: Functions and Variables for Combinatorics1575751
+Ref: apply_cycles1575971
+Ref: cyclep1576720
+Ref: perm_cycles1577338
+Ref: perm_decomp1577748
+Ref: perm_inverse1578183
+Ref: perm_length1578627
+Ref: perm_lex_next1579092
+Ref: perm_lex_rank1579431
+Ref: perm_lex_unrank1579843
+Ref: perm_next1580214
+Ref: perm_parity1580571
+Ref: perm_rank1581011
+Ref: perm_undecomp1581409
+Ref: perm_unrank1581759
+Ref: permp1582116
+Ref: perms1582562
+Ref: perms_lex1584054
+Ref: permult1585846
+Ref: permute1586119
+Ref: random_perm1586728
+Node: contrib_ode-pkg1586991
+Node: Introduction to contrib_ode1587316
+Node: Functions and Variables for contrib_ode1593083
+Ref: contrib_ode1593346
+Ref: odelin1593505
+Ref: ode_check1594279
+Ref: gauss_a1595791
+Ref: gauss_b1596335
+Ref: dgauss_a1596399
+Ref: dgauss_b1596523
+Ref: kummer_m1596647
+Ref: kummer_u1597057
+Ref: dkummer_m1597240
+Ref: dkummer_u1597351
+Ref: bessel_simplify1597462
+Ref: expintegral_e_simplify1598641
+Node: Possible improvements to contrib_ode1598888
+Node: Test cases for contrib_ode1600002
+Node: References for contrib_ode1600769
+Node: descriptive-pkg1602314
+Node: Introduction to descriptive1602639
+Node: Functions and Variables for data manipulation1607737
+Ref: build_sample1608032
+Ref: continuous_freq1610385
+Ref: discrete_freq1613126
+Ref: standardize1614458
+Ref: subsample1614835
+Ref: transform_sample1621037
+Node: Functions and Variables for descriptive statistics1622625
+Ref: mean1622949
+Ref: var1623822
+Ref: var11624432
+Ref: std1625283
+Ref: std11625925
+Ref: noncentral_moment1626574
+Ref: central_moment1627511
+Ref: cv1628466
+Ref: smin1629112
+Ref: smax1629746
+Ref: range1630383
+Ref: quantile1630859
+Ref: median1631769
+Ref: qrange1632505
+Ref: mean_deviation1633249
+Ref: median_deviation1634214
+Ref: harmonic_mean1635105
+Ref: geometric_mean1636036
+Ref: kurtosis1636959
+Ref: skewness1637836
+Ref: pearson_skewness1638725
+Ref: quartile_skewness1639554
+Ref: km1640471
+Ref: cdf_empirical1641941
+Ref: cov1642963
+Ref: cov11644229
+Ref: global_variances1645495
+Ref: cor1647299
+Ref: list_correlations1649475
+Ref: principal_components1652664
+Node: Functions and Variables for statistical graphs1656925
+Ref: barsplot1657187
+Ref: barsplot_description1661705
+Ref: boxplot1662601
+Ref: boxplot_description1666310
+Ref: histogram1666493
+Ref: histogram_description1670235
+Ref: piechart1671049
+Ref: piechart_description1672667
+Ref: scatterplot1672852
+Ref: scatterplot_description1674799
+Ref: starplot1674995
+Ref: starplot_description1677288
+Ref: stemplot1677473
+Node: diag-pkg1678475
+Node: Functions and Variables for diag1678631
+Ref: diag_function1678802
+Ref: JF1680065
+Ref: jordan1680881
+Ref: dispJordan1683307
+Ref: minimalPoly1684467
+Ref: ModeMatrix1685207
+Ref: mat_function1686933
+Node: distrib-pkg1691036
+Node: Introduction to distrib1691294
+Node: Functions and Variables for continuous distributions1697440
+Ref: pdf_normal1697748
+Ref: cdf_normal1697958
+Ref: quantile_normal1698565
+Ref: mean_normal1699164
+Ref: var_normal1699346
+Ref: std_normal1699538
+Ref: skewness_normal1699738
+Ref: kurtosis_normal1699961
+Ref: random_normal1700184
+Ref: pdf_student_t1700676
+Ref: cdf_student_t1700905
+Ref: quantile_student_t1701508
+Ref: mean_student_t1701802
+Ref: var_student_t1702005
+Ref: std_student_t1702316
+Ref: skewness_student_t1702504
+Ref: kurtosis_student_t1702727
+Ref: random_student_t1702922
+Ref: pdf_noncentral_student_t1703743
+Ref: cdf_noncentral_student_t1704846
+Ref: quantile_noncentral_student_t1705285
+Ref: mean_noncentral_student_t1705687
+Ref: var_noncentral_student_t1706331
+Ref: std_noncentral_student_t1706600
+Ref: skewness_noncentral_student_t1706879
+Ref: kurtosis_noncentral_student_t1707165
+Ref: random_noncentral_student_t1707451
+Ref: pdf_chi21708390
+Ref: cdf_chi21708964
+Ref: quantile_chi21709432
+Ref: mean_chi21709853
+Ref: var_chi21710142
+Ref: std_chi21710434
+Ref: skewness_chi21710742
+Ref: kurtosis_chi21711216
+Ref: random_chi21711616
+Ref: pdf_noncentral_chi21712017
+Ref: cdf_noncentral_chi21712304
+Ref: quantile_noncentral_chi21712596
+Ref: mean_noncentral_chi21712977
+Ref: var_noncentral_chi21713157
+Ref: std_noncentral_chi21713340
+Ref: skewness_noncentral_chi21713538
+Ref: kurtosis_noncentral_chi21713743
+Ref: random_noncentral_chi21713948
+Ref: pdf_f1714352
+Ref: cdf_f1714556
+Ref: quantile_f1715020
+Ref: mean_f1715364
+Ref: var_f1715531
+Ref: std_f1715700
+Ref: skewness_f1715885
+Ref: kurtosis_f1716077
+Ref: random_f1716269
+Ref: pdf_exp1716888
+Ref: cdf_exp1717267
+Ref: quantile_exp1717653
+Ref: mean_exp1718283
+Ref: var_exp1718662
+Ref: std_exp1719090
+Ref: skewness_exp1719486
+Ref: kurtosis_exp1719806
+Ref: random_exp1720126
+Ref: pdf_lognormal1720492
+Ref: cdf_lognormal1720708
+Ref: quantile_lognormal1721296
+Ref: mean_lognormal1721836
+Ref: var_lognormal1722012
+Ref: std_lognormal1722190
+Ref: skewness_lognormal1722384
+Ref: kurtosis_lognormal1722585
+Ref: random_lognormal1722786
+Ref: pdf_gamma1723220
+Ref: cdf_gamma1723430
+Ref: quantile_gamma1723899
+Ref: mean_gamma1724189
+Ref: var_gamma1724359
+Ref: std_gamma1724531
+Ref: skewness_gamma1724719
+Ref: kurtosis_gamma1724914
+Ref: random_gamma1725109
+Ref: pdf_beta1725835
+Ref: cdf_beta1726043
+Ref: quantile_beta1726468
+Ref: mean_beta1726756
+Ref: var_beta1726924
+Ref: std_beta1727094
+Ref: skewness_beta1727280
+Ref: kurtosis_beta1727473
+Ref: random_beta1727666
+Ref: pdf_continuous_uniform1728145
+Ref: cdf_continuous_uniform1728379
+Ref: quantile_continuous_uniform1728618
+Ref: mean_continuous_uniform1728951
+Ref: var_continuous_uniform1729145
+Ref: std_continuous_uniform1729347
+Ref: skewness_continuous_uniform1729559
+Ref: kurtosis_continuous_uniform1729778
+Ref: random_continuous_uniform1729997
+Ref: pdf_logistic1730458
+Ref: cdf_logistic1730673
+Ref: quantile_logistic1730893
+Ref: mean_logistic1731191
+Ref: var_logistic1731366
+Ref: std_logistic1731543
+Ref: skewness_logistic1731736
+Ref: kurtosis_logistic1731936
+Ref: random_logistic1732136
+Ref: pdf_pareto1732523
+Ref: cdf_pareto1732735
+Ref: quantile_pareto1732952
+Ref: mean_pareto1733245
+Ref: var_pareto1733418
+Ref: std_pareto1733600
+Ref: skewness_pareto1733792
+Ref: kurtosis_pareto1733991
+Ref: random_pareto1734190
+Ref: pdf_weibull1734573
+Ref: cdf_weibull1734787
+Ref: quantile_weibull1735006
+Ref: mean_weibull1735302
+Ref: var_weibull1735476
+Ref: std_weibull1735652
+Ref: skewness_weibull1735844
+Ref: kurtosis_weibull1736043
+Ref: random_weibull1736242
+Ref: pdf_rayleigh1736627
+Ref: cdf_rayleigh1737063
+Ref: quantile_rayleigh1737501
+Ref: mean_rayleigh1738031
+Ref: var_rayleigh1738422
+Ref: std_rayleigh1738948
+Ref: skewness_rayleigh1739456
+Ref: kurtosis_rayleigh1740120
+Ref: random_rayleigh1740764
+Ref: pdf_laplace1741142
+Ref: cdf_laplace1741354
+Ref: quantile_laplace1741571
+Ref: mean_laplace1741865
+Ref: var_laplace1742037
+Ref: std_laplace1742211
+Ref: skewness_laplace1742401
+Ref: kurtosis_laplace1742598
+Ref: random_laplace1742795
+Ref: pdf_cauchy1743178
+Ref: cdf_cauchy1743388
+Ref: quantile_cauchy1743603
+Ref: random_cauchy1743895
+Ref: pdf_gumbel1744274
+Ref: cdf_gumbel1744484
+Ref: quantile_gumbel1744699
+Ref: mean_gumbel1744991
+Ref: var_gumbel1745305
+Ref: std_gumbel1745477
+Ref: skewness_gumbel1745665
+Ref: kurtosis_gumbel1746185
+Ref: random_gumbel1746380
+Node: Functions and Variables for discrete distributions1746759
+Ref: pdf_general_finite_discrete1747031
+Ref: cdf_general_finite_discrete1747876
+Ref: quantile_general_finite_discrete1748744
+Ref: mean_general_finite_discrete1748970
+Ref: var_general_finite_discrete1749180
+Ref: std_general_finite_discrete1749393
+Ref: skewness_general_finite_discrete1749616
+Ref: kurtosis_general_finite_discrete1749846
+Ref: random_general_finite_discrete1750076
+Ref: pdf_binomial1750706
+Ref: cdf_binomial1750966
+Ref: quantile_binomial1751437
+Ref: mean_binomial1751777
+Ref: var_binomial1751993
+Ref: std_binomial1752212
+Ref: skewness_binomial1752441
+Ref: kurtosis_binomial1752677
+Ref: random_binomial1752913
+Ref: pdf_poisson1753470
+Ref: cdf_poisson1753680
+Ref: quantile_poisson1754024
+Ref: mean_poisson1754313
+Ref: var_poisson1754479
+Ref: std_poisson1754648
+Ref: skewness_poisson1754832
+Ref: kurtosis_poisson1755023
+Ref: random_poisson1755218
+Ref: pdf_bernoulli1755754
+Ref: cdf_bernoulli1756108
+Ref: quantile_bernoulli1756335
+Ref: mean_bernoulli1756642
+Ref: var_bernoulli1756956
+Ref: std_bernoulli1757276
+Ref: skewness_bernoulli1757616
+Ref: kurtosis_bernoulli1758080
+Ref: random_bernoulli1758524
+Ref: pdf_geometric1758952
+Ref: cdf_geometric1759299
+Ref: quantile_geometric1759686
+Ref: mean_geometric1760139
+Ref: var_geometric1760469
+Ref: std_geometric1760806
+Ref: skewness_geometric1761163
+Ref: kurtosis_geometric1761517
+Ref: random_geometric1761881
+Ref: pdf_discrete_uniform1762429
+Ref: cdf_discrete_uniform1762683
+Ref: quantile_discrete_uniform1762938
+Ref: mean_discrete_uniform1763285
+Ref: var_discrete_uniform1763500
+Ref: std_discrete_uniform1763718
+Ref: skewness_discrete_uniform1763946
+Ref: kurtosis_discrete_uniform1764181
+Ref: random_discrete_uniform1764416
+Ref: pdf_hypergeometric1764887
+Ref: cdf_hypergeometric1765419
+Ref: quantile_hypergeometric1765779
+Ref: mean_hypergeometric1766159
+Ref: var_hypergeometric1766421
+Ref: std_hypergeometric1766684
+Ref: skewness_hypergeometric1766953
+Ref: kurtosis_hypergeometric1767229
+Ref: random_hypergeometric1767505
+Ref: pdf_negative_binomial1768121
+Ref: cdf_negative_binomial1768395
+Ref: quantile_negative_binomial1768817
+Ref: mean_negative_binomial1769180
+Ref: var_negative_binomial1769410
+Ref: std_negative_binomial1769643
+Ref: skewness_negative_binomial1769886
+Ref: kurtosis_negative_binomial1770136
+Ref: random_negative_binomial1770386
+Node: draw-pkg1770891
+Node: Introduction to draw1771149
+Node: Functions and Variables for draw1773522
+Ref: gr2d1773779
+Ref: gr3d1775041
+Ref: draw1775872
+Ref: draw2d1777904
+Ref: draw3d1778171
+Ref: draw_file1778438
+Ref: multiplot_mode1778879
+Ref: set_draw_defaults1780221
+Ref: adapt_depth_draw1781045
+Ref: allocation1781289
+Ref: axis_3d1782673
+Ref: axis_bottom1783158
+Ref: axis_left1783602
+Ref: axis_right1784009
+Ref: axis_top1784419
+Ref: background_color1784824
+Ref: border1785197
+Ref: capping1785796
+Ref: cbrange1786394
+Ref: cbtics1787284
+Ref: color_draw1787952
+Ref: colorbox1791765
+Ref: columns1792774
+Ref: contour1793406
+Ref: contour_levels1794520
+Ref: data_file_name1796429
+Ref: delay1796820
+Ref: dimensions_draw1797652
+Ref: draw_realpart1799180
+Ref: enhanced3d1799855
+Ref: error_type1805498
+Ref: file_name1805811
+Ref: fill_color1806391
+Ref: fill_density1806598
+Ref: filled_func1806807
+Ref: font1808220
+Ref: font_size1811414
+Ref: gnuplot_file_name1811834
+Ref: grid_draw1812592
+Ref: head_angle1813310
+Ref: head_both1814527
+Ref: head_length1815130
+Ref: head_type1815821
+Ref: interpolate_color1816639
+Ref: ip_grid1819425
+Ref: ip_grid_in1819616
+Ref: key1819817
+Ref: key_pos1820541
+Ref: label_alignment1821570
+Ref: label_orientation1822472
+Ref: line_type1823391
+Ref: line_width1824302
+Ref: logcb1825004
+Ref: logx_draw1825708
+Ref: logx_secondary1826257
+Ref: logy_draw1827124
+Ref: logy_secondary1827550
+Ref: logz1828383
+Ref: palette_draw1829452
+Ref: point_size1832650
+Ref: point_type_draw1833226
+Ref: points_joined1834932
+Ref: proportional_axes1836101
+Ref: surface_hide1837315
+Ref: terminal1837843
+Ref: title_draw1840978
+Ref: transform1841400
+Ref: transparent1842812
+Ref: unit_vectors1843334
+Ref: user_preamble1844009
+Ref: view1845221
+Ref: wired_surface1846129
+Ref: x_voxel1846615
+Ref: xaxis1846865
+Ref: xaxis_color1847312
+Ref: xaxis_secondary1847792
+Ref: xaxis_type1848598
+Ref: xaxis_width1849073
+Ref: xlabel_draw1849528
+Ref: xlabel_secondary1850047
+Ref: xrange1850776
+Ref: xrange_secondary1851288
+Ref: xtics_draw1851775
+Ref: xtics_axis1853661
+Ref: xtics_rotate1853983
+Ref: xtics_rotate_secondary1854241
+Ref: xtics_secondary1854529
+Ref: xtics_secondary_axis1854736
+Ref: xu_grid1855088
+Ref: xy_file1855591
+Ref: xyplane1855952
+Ref: y_voxel1856468
+Ref: yaxis1856718
+Ref: yaxis_color1857140
+Ref: yaxis_secondary1857620
+Ref: yaxis_type1858307
+Ref: yaxis_width1858783
+Ref: ylabel_draw1859238
+Ref: ylabel_secondary1859764
+Ref: yrange1860589
+Ref: yrange_secondary1861161
+Ref: ytics_draw1861973
+Ref: ytics_axis1862158
+Ref: ytics_rotate1862480
+Ref: ytics_rotate_secondary1862738
+Ref: ytics_secondary1863026
+Ref: ytics_secondary_axis1863228
+Ref: yv_grid1863580
+Ref: z_voxel1864110
+Ref: zaxis1864315
+Ref: zaxis_color1864850
+Ref: zaxis_type1865431
+Ref: zaxis_width1865964
+Ref: zlabel_draw1866515
+Ref: zlabel_rotate1867078
+Ref: zrange1867669
+Ref: ztics_draw1868272
+Ref: ztics_axis1868462
+Ref: ztics_rotate1868784
+Ref: bars1869091
+Ref: cylindrical1869979
+Ref: elevation_grid1870702
+Ref: ellipse1871721
+Ref: errors1872898
+Ref: explicit1874260
+Ref: image1876221
+Ref: implicit1880003
+Ref: label_draw1881918
+Ref: mesh1883167
+Ref: parametric1884592
+Ref: parametric_surface1886073
+Ref: points1887325
+Ref: polar1893630
+Ref: polygon1894503
+Ref: quadrilateral1895369
+Ref: rectangle1896438
+Ref: region1897420
+Ref: spherical1898150
+Ref: triangle1898880
+Ref: tube1899783
+Ref: vector1900550
+Ref: draw_renderer1901861
+Node: Functions and Variables for pictures1902012
+Ref: get_pixel1902264
+Ref: make_level_picture1902424
+Ref: make_rgb_picture1903588
+Ref: negative_picture1904711
+Ref: picture_equalp1904810
+Ref: picturep1904920
+Ref: read_xpm1905038
+Ref: rgb2level1905130
+Ref: take_channel1905267
+Node: Functions and Variables for worldmap1906179
+Ref: boundaries_array1906453
+Ref: numbered_boundaries1906792
+Ref: make_poly_continent1907319
+Ref: make_poly_country1907931
+Ref: make_polygon1908293
+Ref: region_boundaries1911382
+Ref: region_boundaries_plus1911929
+Ref: geomap1912563
+Node: drawdf-pkg1918761
+Node: Introduction to drawdf1918946
+Node: Functions and Variables for drawdf1920831
+Ref: drawdf1921059
+Node: dynamics-pkg1929255
+Node: The dynamics package1929497
+Node: Graphical analysis of discrete dynamical systems1930171
+Ref: chaosgame1930437
+Ref: evolution1931199
+Ref: evolution2d1931941
+Ref: ifs1932975
+Ref: orbits1934391
+Ref: staircase1935807
+Node: Visualization with VTK1936665
+Ref: scene1937124
+Ref: scene_options1939363
+Ref: scene_azimuth1939406
+Ref: scene_background1939705
+Ref: scene_elevation1939946
+Ref: scene_height1940276
+Ref: scene_restart1940450
+Ref: scene_tstep1940699
+Ref: scene_width1940899
+Ref: scene_windowname1941070
+Ref: scene_windowtitle1941363
+Ref: scene_objects1941556
+Ref: cone1941599
+Ref: cube1942460
+Ref: cylinder1942785
+Ref: sphere1943418
+Ref: object_options1943538
+Ref: object_animation1943599
+Ref: object_capping1944194
+Ref: object_center1944448
+Ref: object_color1944801
+Ref: object_endphi1945010
+Ref: object_endtheta1945464
+Ref: object_height1945914
+Ref: object_linewidth1946075
+Ref: object_opacity1946254
+Ref: object_orientation1946509
+Ref: object_origin1946879
+Ref: object_phiresolution1947151
+Ref: object_points1947429
+Ref: object_pointsize1947632
+Ref: object_position1947808
+Ref: object_radius1948025
+Ref: object_resolution1948249
+Ref: object_scale1948448
+Ref: object_startphi1948895
+Ref: object_starttheta1949350
+Ref: object_surface1949801
+Ref: object_thetaresolution1950096
+Ref: object_track1950388
+Ref: object_xlength1951371
+Ref: object_ylength1951567
+Ref: object_zlength1951763
+Ref: object_wireframe1951959
+Node: engineering-format-pkg1952163
+Node: Functions and Variables for engineering-format1952522
+Ref: engineering_format_floats1952763
+Ref: engineering_format_min1953325
+Ref: engineering_format_max1954096
+Node: ezunits-pkg1954340
+Node: Introduction to ezunits1954578
+Node: Introduction to physical_constants1958211
+Ref: physical_constants1958450
+Node: Functions and Variables for ezunits1962942
+Ref: constvalue1973977
+Ref: declare_constvalue1974845
+Ref: remove_constvalue1975441
+Ref: units1975592
+Ref: declare_units1976938
+Ref: qty1977686
+Ref: declare_qty1978657
+Ref: unitp1979338
+Ref: declare_unit_conversion1980529
+Ref: declare_dimensions1982376
+Ref: remove_dimensions1983356
+Ref: declare_fundamental_dimensions1983521
+Ref: declare_fundamental_units1984891
+Ref: dimensions1986570
+Ref: fundamental_units1988345
+Ref: dimensionless1989697
+Ref: natural_unit1990797
+Node: f90-pkg1991035
+Node: Package f901991163
+Ref: f90_output_line_length_max1991269
+Ref: function_f901992886
+Node: finance-pkg1994946
+Node: Introduction to finance1995135
+Node: Functions and Variables for finance1995736
+Ref: days3601995934
+Ref: fv1996239
+Ref: pv1996594
+Ref: graph_flow1996952
+Ref: annuity_pv1997337
+Ref: annuity_fv1997748
+Ref: geo_annuity_pv1998157
+Ref: geo_annuity_fv1998624
+Ref: amortization1999088
+Ref: arit_amortization2000473
+Ref: geo_amortization2002169
+Ref: saving2003821
+Ref: npv2005217
+Ref: irr2005536
+Ref: benefit_cost2005938
+Node: fractals-pkg2006830
+Node: Introduction to fractals2007123
+Node: Definitions for IFS fractals2007741
+Ref: sierpinskiale2008457
+Ref: treefale2008829
+Ref: fernfale2009118
+Node: Definitions for complex fractals2009463
+Ref: mandelbrot_set2009689
+Ref: julia_set2010183
+Ref: julia_parameter2010695
+Ref: julia_sin2010969
+Node: Definitions for Koch snowflakes2011758
+Ref: snowmap2011980
+Node: Definitions for Peano maps2012738
+Ref: hilbertmap2013018
+Ref: sierpinskimap2013265
+Node: gentran-pkg2013520
+Node: Introduction to Gentran2013779
+Node: Functions for Gentran2014309
+Node: Gentran Mode Switches2021802
+Node: Gentran Option Variables2023810
+Node: Gentran Evaluation Forms2031220
+Node: ggf-pkg2034328
+Node: Functions and Variables for ggf2034475
+Ref: ggf2035757
+Node: graphs-pkg2036250
+Node: Introduction to graphs2036433
+Node: Functions and Variables for graphs2037520
+Ref: create_graph2037760
+Ref: copy_graph2039630
+Ref: circulant_graph2039700
+Ref: clebsch_graph2040281
+Ref: complement_graph2040345
+Ref: complete_bipartite_graph2040429
+Ref: complete_graph2040541
+Ref: cycle_digraph2040626
+Ref: cycle_graph2040710
+Ref: cuboctahedron_graph2040783
+Ref: cube_graph2040862
+Ref: dodecahedron_graph2040933
+Ref: empty_graph2041007
+Ref: flower_snark2041086
+Ref: from_adjacency_matrix2041335
+Ref: frucht_graph2041442
+Ref: graph_product2041504
+Ref: graph_union2041753
+Ref: grid_graph2041847
+Ref: great_rhombicosidodecahedron_graph2041915
+Ref: great_rhombicuboctahedron_graph2042021
+Ref: grotzch_graph2042121
+Ref: heawood_graph2042185
+Ref: icosahedron_graph2042249
+Ref: icosidodecahedron_graph2042321
+Ref: induced_subgraph2042405
+Ref: line_graph2042904
+Ref: make_graph2042982
+Ref: mycielski_graph2044087
+Ref: new_graph2044177
+Ref: path_digraph2044259
+Ref: path_graph2044341
+Ref: petersen_graph2044412
+Ref: random_bipartite_graph2044612
+Ref: random_digraph2044772
+Ref: random_regular_graph2044915
+Ref: random_graph2045130
+Ref: random_graph12045263
+Ref: random_network2045369
+Ref: random_tournament2045885
+Ref: random_tree2045974
+Ref: small_rhombicosidodecahedron_graph2046051
+Ref: small_rhombicuboctahedron_graph2046157
+Ref: snub_cube_graph2046257
+Ref: snub_dodecahedron_graph2046325
+Ref: truncated_cube_graph2046409
+Ref: truncated_dodecahedron_graph2046487
+Ref: truncated_icosahedron_graph2046581
+Ref: truncated_tetrahedron_graph2046673
+Ref: tutte_graph2046765
+Ref: underlying_graph2046825
+Ref: wheel_graph2046924
+Ref: adjacency_matrix2047054
+Ref: average_degree2047619
+Ref: biconnected_components2047948
+Ref: bipartition2048445
+Ref: chromatic_index2048846
+Ref: chromatic_number2049102
+Ref: clear_edge_weight2049430
+Ref: clear_vertex_label2049870
+Ref: connected_components2050351
+Ref: diameter2050684
+Ref: edge_coloring2050900
+Ref: degree_sequence2051655
+Ref: edge_connectivity2051914
+Ref: edges2052039
+Ref: get_edge_weight2052290
+Ref: get_vertex_label2053019
+Ref: graph_charpoly2053325
+Ref: graph_center2053695
+Ref: graph_eigenvalues2053936
+Ref: graph_periphery2054295
+Ref: graph_size2054550
+Ref: graph_order2054796
+Ref: girth2055047
+Ref: hamilton_cycle2055285
+Ref: hamilton_path2055667
+Ref: isomorphism2056060
+Ref: in_neighbors2056564
+Ref: is_biconnected2056940
+Ref: is_bipartite2057277
+Ref: is_connected2057629
+Ref: is_digraph2057911
+Ref: is_edge_in_graph2058242
+Ref: is_graph2058847
+Ref: is_graph_or_digraph2059163
+Ref: is_isomorphic2059536
+Ref: is_planar2059927
+Ref: is_sconnected2060453
+Ref: is_vertex_in_graph2060822
+Ref: is_tree2061214
+Ref: laplacian_matrix2061555
+Ref: max_clique2062258
+Ref: max_degree2062524
+Ref: max_flow2062909
+Ref: max_independent_set2063942
+Ref: max_matching2064283
+Ref: min_degree2064689
+Ref: min_edge_cut2065073
+Ref: min_vertex_cover2065197
+Ref: min_vertex_cut2065293
+Ref: minimum_spanning_tree2065423
+Ref: neighbors2065738
+Ref: odd_girth2066014
+Ref: out_neighbors2066374
+Ref: planar_embedding2066752
+Ref: print_graph2067293
+Ref: radius2067994
+Ref: set_edge_weight2068204
+Ref: set_vertex_label2068690
+Ref: shortest_path2069182
+Ref: shortest_weighted_path2069549
+Ref: strong_components2070166
+Ref: topological_sort2070533
+Ref: vertex_connectivity2071074
+Ref: vertex_degree2071203
+Ref: vertex_distance2071305
+Ref: vertex_eccentricity2071721
+Ref: vertex_in_degree2072005
+Ref: vertex_out_degree2072568
+Ref: vertices2072951
+Ref: vertex_coloring2073177
+Ref: wiener_index2073663
+Ref: add_edge2073908
+Ref: add_edges2074307
+Ref: add_vertex2074697
+Ref: add_vertices2075049
+Ref: connect_vertices2075157
+Ref: contract_edge2075716
+Ref: remove_edge2076507
+Ref: remove_vertex2076878
+Ref: dimacs_export2077041
+Ref: dimacs_import2077299
+Ref: graph6_decode2077396
+Ref: graph6_encode2077507
+Ref: graph6_export2077617
+Ref: graph6_import2077751
+Ref: sparse6_decode2077859
+Ref: sparse6_encode2077977
+Ref: sparse6_export2078094
+Ref: sparse6_import2078230
+Ref: draw_graph2078383
+Ref: draw_graph_program2081611
+Ref: show_id2081787
+Ref: show_label2081903
+Ref: label_alignment_graphs2082025
+Ref: show_weight2082198
+Ref: vertex_type2082319
+Ref: vertex_size2082504
+Ref: vertex_color2082567
+Ref: show_vertices2082649
+Ref: show_vertex_type2082774
+Ref: show_vertex_size2082967
+Ref: show_vertex_color2083054
+Ref: vertex_partition2083169
+Ref: vertex_coloring_variable2083403
+Ref: edge_color2083575
+Ref: edge_width2083652
+Ref: edge_type2083712
+Ref: show_edges2083841
+Ref: show_edge_color2083956
+Ref: show_edge_width2084063
+Ref: show_edge_type2084144
+Ref: edge_partition2084294
+Ref: edge_coloring_variable2084494
+Ref: redraw2084656
+Ref: head_angle_graphs2084845
+Ref: head_length_graphs2084974
+Ref: spring_embedding_depth2085106
+Ref: terminal_graphs2085261
+Ref: file_name_graphs2085385
+Ref: program2085479
+Ref: fixed_vertices2085917
+Ref: vertices_to_path2086098
+Ref: vertices_to_cycle2086240
+Node: grobner-pkg2086384
+Node: Introduction to grobner2086577
+Node: Functions and Variables for grobner2088315
+Ref: poly_add2091106
+Ref: poly_subtract2091357
+Ref: poly_multiply2091625
+Ref: poly_s_polynomial2091872
+Ref: poly_primitive_part2092034
+Ref: poly_normalize2092280
+Ref: poly_expand2092586
+Ref: poly_expt2094063
+Ref: poly_content2094360
+Ref: poly_pseudo_divide2094564
+Ref: poly_exact_divide2095188
+Ref: poly_normal_form2095408
+Ref: poly_buchberger_criterion2095595
+Ref: poly_buchberger2095912
+Ref: poly_reduction2096607
+Ref: poly_minimization2096815
+Ref: poly_normalize_list2097113
+Ref: poly_grobner2097355
+Ref: poly_reduced_grobner2097522
+Ref: poly_depends_p2097705
+Ref: poly_elimination_ideal2097843
+Ref: poly_colon_ideal2098109
+Ref: poly_ideal_intersection2098337
+Ref: poly_lcm2098496
+Ref: poly_gcd2098614
+Ref: poly_grobner_equal2099240
+Ref: poly_grobner_subsetp2099913
+Ref: poly_grobner_member2100202
+Ref: poly_ideal_saturation12100658
+Ref: poly_ideal_saturation2101019
+Ref: poly_ideal_polysaturation12101410
+Ref: poly_ideal_polysaturation2101838
+Ref: poly_saturation_extension2102148
+Ref: poly_polysaturation_extension2102318
+Node: hompack-pkg2102418
+Node: Introduction to hompack2102610
+Node: Functions and Variables for hompack2102876
+Ref: hompack_polsys2103056
+Node: impdiff-pkg2109851
+Node: Functions and Variables for impdiff2110016
+Ref: implicit_derivative2110202
+Node: interpol-pkg2110657
+Node: Introduction to interpol2110853
+Node: Functions and Variables for interpol2111263
+Ref: lagrange2111466
+Ref: charfun22115611
+Ref: linearinterpol2116884
+Ref: cspline2119523
+Ref: ratinterpol2124089
+Node: lapack-pkg2125494
+Node: Introduction to lapack2125680
+Node: Functions and Variables for lapack2126000
+Ref: dgeev2126193
+Ref: dgeqrf2129117
+Ref: dgesv2130622
+Ref: dgesvd2134077
+Ref: dlange2139245
+Ref: zlange2139245
+Ref: dgemm2140008
+Ref: zgeev2145384
+Ref: zheev2145521
+Node: lbfgs-pkg2145976
+Node: Introduction to lbfgs2146159
+Node: Functions and Variables for lbfgs2147178
+Ref: lbfgs_func2147360
+Ref: lbfgs_nfeval_max2161970
+Ref: lbfgs_ncorrections2162244
+Node: lindstedt-pkg2162444
+Node: Functions and Variables for lindstedt2162620
+Ref: Lindstedt2162816
+Node: linearalgebra-pkg2164148
+Node: Introduction to linearalgebra2164373
+Node: Functions and Variables for linearalgebra2168856
+Ref: addmatrices2169060
+Ref: blockmatrixp2169572
+Ref: columnop2169696
+Ref: columnswap2169930
+Ref: columnspace2170088
+Ref: cholesky2170370
+Ref: ctranspose2170681
+Ref: diag_matrix2170880
+Ref: dotproduct2171855
+Ref: eigens_by_jacobi2172063
+Ref: get_lu_factors2175179
+Ref: hankel2175468
+Ref: hessian2175757
+Ref: hilbert_matrix2176878
+Ref: identfor2177016
+Ref: invert_by_lu2177592
+Ref: jacobian2177761
+Ref: kronecker_product2178711
+Ref: listp2178819
+Ref: locate_matrix_entry2179158
+Ref: lu_backsub2180094
+Ref: lu_factor2184371
+Ref: mat_cond2189749
+Ref: mat_norm2190268
+Ref: linearalgebra_matrixp2190581
+Ref: matrix_size2190949
+Ref: mat_fullunblocker2191093
+Ref: mat_trace2191264
+Ref: mat_unblocker2191497
+Ref: nullspace2192868
+Ref: nullity2193142
+Ref: orthogonal_complement2193243
+Ref: polytocompanion2193508
+Ref: ptringularize2193798
+Ref: rowp2194232
+Ref: linalg_rank2194458
+Ref: rowswap2194951
+Ref: toeplitz2195100
+Ref: vandermonde_matrix2195934
+Ref: zerofor2196090
+Ref: zeromatrixp2196633
+Node: lsquares-pkg2196907
+Node: Introduction to lsquares2197110
+Node: Functions and Variables for lsquares2197448
+Ref: lsquares_estimates2197651
+Ref: lsquares_estimates_exact2204108
+Ref: lsquares_estimates_approximate2206393
+Ref: lsquares_mse2209369
+Ref: lsquares_residuals2213699
+Ref: lsquares_residual_mse2215837
+Ref: plsquares2217910
+Node: minpack-pkg2222048
+Node: Introduction to minpack2222244
+Node: Functions and Variables for minpack2222548
+Ref: minpack_lsquares2222746
+Ref: minpack_solve2225419
+Node: makeOrders-pkg2227572
+Node: Functions and Variables for makeOrders2227748
+Ref: makeOrders_func2227949
+Node: mnewton-pkg2228757
+Node: Introduction to mnewton2228956
+Node: Functions and Variables for mnewton2229259
+Ref: newtonepsilon2229457
+Ref: newtonmaxiter2229749
+Ref: mnewton2229962
+Node: numericalio-pkg2231548
+Ref: numericalio2231832
+Node: Introduction to numericalio2231832
+Node: Functions and Variables for plain-text input and output2236055
+Ref: read_matrix2236381
+Ref: read_array2238036
+Ref: read_hashed_array2238887
+Ref: read_nested_list2239894
+Ref: read_list2240799
+Ref: write_data2241715
+Node: Functions and Variables for binary input and output2243165
+Ref: assume_external_byte_order2243447
+Ref: openr_binary2243942
+Ref: openw_binary2244124
+Ref: opena_binary2244324
+Ref: read_binary_matrix2244466
+Ref: read_binary_array2244882
+Ref: read_binary_list2245359
+Ref: write_binary_data2245964
+Node: odepack-pkg2247014
+Node: Introduction to ODEPACK2247251
+Ref: Introduction to ODEPACK-Footnote-12248488
+Node: Getting Started with ODEPACK2248543
+Node: Functions and Variables for odepack2251929
+Ref: dlsode_init2252160
+Ref: dlsode_step2253602
+Node: operatingsystem-pkg2255882
+Node: Introduction to operatingsystem2256138
+Node: Directory operations2256459
+Ref: chdir2256652
+Ref: mkdir2256712
+Ref: rmdir2256769
+Ref: getcurrentdirectory2256826
+Node: File operations2257116
+Ref: copy_file2257290
+Ref: rename_file2257370
+Ref: delete_file2257453
+Node: Environment operations2257516
+Ref: getenv2257675
+Node: opsubst-pkg2257924
+Node: Functions and Variables for opsubst2258098
+Ref: opsubst_func2258284
+Node: orthopoly-pkg2260566
+Node: Introduction to orthogonal polynomials2260794
+Ref: Floating point Evaluation2271428
+Node: Functions and Variables for orthogonal polynomials2278573
+Ref: assoc_legendre_p2278833
+Ref: assoc_legendre_q2279101
+Ref: chebyshev_t2279306
+Ref: chebyshev_u2279475
+Ref: gen_laguerre2279645
+Ref: hermite2279813
+Ref: intervalp2279958
+Ref: jacobi_p2280071
+Ref: laguerre2280410
+Ref: legendre_p2280575
+Ref: legendre_q2280760
+Ref: orthopoly_recur2280925
+Ref: orthopoly_weight2282457
+Ref: pochhammer2283202
+Ref: spherical_bessel_j2284985
+Ref: spherical_bessel_y2285179
+Ref: spherical_hankel12285374
+Ref: spherical_hankel22285540
+Ref: spherical_harmonic2285707
+Ref: unit_step2285834
+Ref: ultraspherical2286084
+Node: pytranslate2286281
+Node: Introduction to pytranslate2286512
+Node: Functions in pytranslate2289088
+Node: Extending pytranslate2291541
+Node: quantum_computing-pkg2296665
+Node: Package quantum_computing2296906
+Node: Functions and Variables for Quantum_Computing2297887
+Ref: binlist2298127
+Ref: binlist2dec2298635
+Ref: CNOT2298769
+Ref: controlled2298993
+Ref: gate2299559
+Ref: gate_matrix2300415
+Ref: linsert2301007
+Ref: lreplace2301228
+Ref: normalize2301649
+Ref: qdisplay2301762
+Ref: qmatrix2301992
+Ref: qmeasure2302466
+Ref: qubits2303187
+Ref: qswap2303487
+Ref: Rx2303692
+Ref: Ry2303856
+Ref: Rz2304020
+Ref: tprod2304184
+Ref: toffoli2304307
+Node: ratpow-pkg2304556
+Node: Functions and Variables for ratpow2305677
+Ref: ratp_hipow2305844
+Ref: ratp_lopow2306166
+Ref: ratp_coeffs2307183
+Ref: ratp_dense_coeffs2307558
+Node: romberg-pkg2307910
+Node: Functions and Variables for romberg2308073
+Ref: romberg_function2308243
+Ref: rombergabs2313039
+Ref: rombergit2313581
+Ref: rombergmin2314009
+Ref: rombergtol2314293
+Node: simplex-pkg2314836
+Node: Introduction to simplex2315035
+Node: Functions and Variables for simplex2317161
+Ref: epsilon_lp2317359
+Ref: linear_program2318183
+Ref: maximize_lp2319246
+Ref: minimize_lp2319505
+Ref: nonnegative_lp2322920
+Ref: scale_lp2323225
+Ref: pivot_count_sx2323419
+Ref: pivot_max_sx2323554
+Node: simplification-pkg2323669
+Node: Introduction to simplification2323963
+Node: Package absimp2324348
+Node: Package facexp2325373
+Ref: facsum2326660
+Ref: nextlayerfactor2328561
+Ref: facsum_combine2329259
+Ref: factorfacsum2329946
+Ref: collectterms2330273
+Node: Package functs2331508
+Ref: rempart2331662
+Ref: wronskian2331896
+Ref: tracematrix2332570
+Ref: nonzeroandfreeof2333047
+Ref: gcdivide2334010
+Ref: arithmetic2335693
+Ref: geometric2335908
+Ref: harmonic2336115
+Ref: arithsum2336353
+Ref: geosum2336511
+Ref: gaussprob2336775
+Ref: gd2336946
+Ref: agd2337088
+Ref: vers2337249
+Ref: covers2337376
+Ref: exsec2337509
+Ref: hav2337636
+Ref: combination2337763
+Ref: permutation2337939
+Node: Package ineq2338130
+Node: Package rducon2342158
+Ref: reduce_consts2342312
+Node: Package scifac2343685
+Ref: gcfac2343818
+Node: solve_rec-pkg2344793
+Node: Introduction to solve_rec2345000
+Node: Functions and Variables for solve_rec2345726
+Ref: reduce_order2345934
+Ref: simplify_products2347725
+Ref: simplify_sum2347919
+Ref: solve_rec2348747
+Ref: solve_rec_rat2351725
+Ref: product_use_gamma2352591
+Ref: summand_to_rec2352838
+Node: stats-pkg2354103
+Node: Introduction to stats2354391
+Node: Functions and Variables for inference_result2355512
+Ref: inference_result2355769
+Ref: inferencep2357599
+Ref: items_inference2357738
+Ref: take_inference2358453
+Node: Functions and Variables for stats2360307
+Ref: stats_numer2360570
+Ref: test_mean2360825
+Ref: test_means_difference2365204
+Ref: test_variance2370038
+Ref: test_variance_ratio2372582
+Ref: test_proportion2375335
+Ref: test_proportions_difference2378850
+Ref: test_sign2382541
+Ref: test_signed_rank2384479
+Ref: test_rank_sum2387571
+Ref: test_normality2390334
+Ref: linear_regression2391389
+Node: Functions and Variables for special distributions2395071
+Ref: pdf_signed_rank2395313
+Ref: cdf_signed_rank2395549
+Ref: pdf_rank_sum2395784
+Ref: cdf_rank_sum2396032
+Node: stirling-pkg2396279
+Node: Functions and Variables for stirling2396448
+Ref: stirling2396639
+Node: stringproc-pkg2399127
+Node: Introduction to String Processing2399412
+Node: String Input and Output2402835
+Ref: close2403705
+Ref: flength2403805
+Ref: flush_output2404033
+Ref: fposition2404192
+Ref: freshline2404650
+Ref: get_output_stream_string2405052
+Ref: make_string_input_stream2405347
+Ref: make_string_output_stream2406144
+Ref: newline2406846
+Ref: opena2407191
+Ref: openr2407464
+Ref: openw2408326
+Ref: printf2408679
+Ref: readbyte2413931
+Ref: readchar2414827
+Ref: readline2415042
+Ref: sprint2415257
+Ref: writebyte2416047
+Node: Characters2417428
+Ref: adjust_external_format2417617
+Ref: alphacharp2419856
+Ref: alphanumericp2420853
+Ref: ascii2421077
+Ref: cequal2421603
+Ref: cequalignore2421716
+Ref: cgreaterp2421990
+Ref: cgreaterpignore2422136
+Ref: charp2422416
+Ref: cint2422534
+Ref: clessp2423452
+Ref: clesspignore2423592
+Ref: constituent2423866
+Ref: digitcharp2424492
+Ref: lowercasep2424646
+Ref: newline_variable2424785
+Ref: space_variable2424858
+Ref: tab_variable2424906
+Ref: unicode2424950
+Ref: unicode_to_utf82426957
+Ref: uppercasep2427516
+Ref: us_ascii_only2427656
+Ref: utf8_to_unicode2428598
+Node: String Processing2428812
+Ref: charat2429089
+Ref: charlist2429399
+Ref: eval_string2429572
+Ref: parse_string2430187
+Ref: scopy2430824
+Ref: sdowncase2430906
+Ref: sequal2431134
+Ref: sequalignore2431277
+Ref: sexplode2431555
+Ref: simplode2431644
+Ref: sinsert2432328
+Ref: sinvertcase2432849
+Ref: slength2433303
+Ref: smake2433389
+Ref: smismatch2433586
+Ref: split2434061
+Ref: sposition2434863
+Ref: sremove2435110
+Ref: sremovefirst2435889
+Ref: sreverse2436224
+Ref: ssearch2436367
+Ref: ssort2437035
+Ref: ssubst2437737
+Ref: ssubstfirst2438671
+Ref: strim2439028
+Ref: striml2439379
+Ref: strimr2439492
+Ref: stringp2439606
+Ref: substring2439711
+Ref: supcase2440308
+Ref: tokens2440796
+Node: Octets and Utilities for Cryptography2441645
+Ref: base642441846
+Ref: base64_decode2442837
+Ref: crc24sum2443289
+Ref: md5sum2445058
+Ref: mgf1_sha12446949
+Ref: number_to_octets2447872
+Ref: octets_to_number2448335
+Ref: octets_to_oid2448504
+Ref: octets_to_string2448908
+Ref: oid_to_octets2450856
+Ref: sha1sum2451007
+Ref: sha256sum2452221
+Ref: string_to_octets2452974
+Node: to_poly_solve-pkg2453666
+Node: Functions and Variables for to_poly_solve2453854
+Ref: complex_number_p2461746
+Ref: compose_functions2462634
+Ref: dfloat2464642
+Ref: elim2465703
+Ref: elim_allbut2468305
+Ref: eliminate_using2469027
+Ref: fourier_elim2470468
+Ref: isreal_p2473826
+Ref: new_variable2475154
+Ref: nicedummies2476898
+Ref: real_imagpart_to_conjugate2478989
+Ref: rectform_log_if_constant2479726
+Ref: simp_inequality2480744
+Ref: standardize_inverse_trig2482692
+Ref: subst_parallel2483203
+Ref: to_poly2485314
+Ref: %union2501824
+Node: unit-pkg2503660
+Node: Introduction to Units2503845
+Node: Functions and Variables for Units2507549
+Ref: setunits2507736
+Ref: uforget2512646
+Ref: convert2513960
+Ref: usersetunits2517391
+Ref: metricexpandall2525913
+Node: wrstcse-pkg2527041
+Node: Introduction to wrstcse2527233
+Node: Functions and Variables for wrstcse2528243
+Ref: wc_typicalvalues2528441
+Ref: wc_inputvalueranges2529440
+Ref: wc_systematic2530243
+Ref: wc_montecarlo2531441
+Ref: wc_mintypmax2532606
+Ref: wc_tolappend2533824
+Ref: wc_mintypmax2tol2535079
+Node: zeilberger-pkg2535695
+Node: Introduction to zeilberger2535917
+Node: Functions and Variables for zeilberger2537870
+Ref: AntiDifference2538083
+Ref: Gosper2538260
+Ref: GosperSum2538483
+Ref: parGosper2540514
+Ref: Zeilberger2540835
+Ref: MAX_ORD2541573
+Ref: simplified_output2541705
+Ref: linear_solver2541906
+Ref: warnings2542091
+Ref: Gosper_in_Zeilberger2542266
+Ref: trivial_solutions2542518
+Ref: mod_test2542828
+Ref: modular_linear_solver2543003
+Ref: ev_point2543178
+Ref: mod_big_prime2543368
+Ref: mod_threshold2543523
+Node: Error and warning messages2543686
+Node: Error messages2544034
+Node: No such list element2544649
+Node: argument must be a non-atomic expression2545047
+Node: cannot assign to function2545940
+Node: 0 to a negative exponent2546309
+Node: Comma is not a prefix operator2546623
+Node: Illegal use of delimiter2546995
+Node: loadfile failed to load2547391
+Node: makelist second argument must evaluate to a number2548395
+Node: Only symbols can be bound2548915
+Node: Operators of arguments must all be the same2549325
+Node: out of memory2550165
+Node: part fell off the end2551338
+Node: undefined variable during plotting2551625
+Node: VTK is not installed2552761
+Node: Warning messages2553346
+Node: undefined variable during translation2553565
+Node: replaced x by y2554199
+Node: Command-line options2555059
+Node: Command line options2555274
+Node: Function and Variable Index2557284
+
+End Tag Table
+
+
+Local Variables:
+coding: utf-8
+End:

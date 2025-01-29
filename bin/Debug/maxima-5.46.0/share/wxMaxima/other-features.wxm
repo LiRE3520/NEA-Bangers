@@ -1,0 +1,102 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 19.07.0-DevelopmentSnapshot ] */
+/* [wxMaxima: subsect start ]
+Highlighting and Boxes
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: subsect start ]
+Item lists
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+ö=3;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: subsect start ]
+wxbuild_info()
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: input   start ] */
+wxbuild_info();
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: subsect start ]
+Text that isn't transferred from maxima to wxMaxima using XML
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: subsubsect start ]
+Test with lines ending in a $
+   [wxMaxima: subsubsect end   ] */
+
+
+/* [wxMaxima: subsect start ]
+Transfer of partial lines
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: subsubsect start ]
+Can we continue a line we have started to output?
+   [wxMaxima: subsubsect end   ] */
+
+
+/* [wxMaxima: subsect start ]
+Lisp code
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: comment start ]
+In-line lisp code
+   [wxMaxima: comment end   ] */
+
+
+/* [wxMaxima: input   start ] */
+testval:1;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+:lisp (defvar $testval2 $testval)
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+if testval2 # testval then error("The execution of lisp code wasn't successful.")$
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: comment start ]
+Lisp ode spread across multiple cells
+   [wxMaxima: comment end   ] */
+
+
+/* [wxMaxima: input   start ] */
+to_lisp();
+(format nil "test");
+(format nil "test");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+(format nil "test");
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+(to-maxima)
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+test;
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 19.07.0-DevelopmentSnapshot"$
